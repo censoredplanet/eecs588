@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <!-- (c) adopted from 2015 J. Alex Halderman -->
+  <head>
+    <title>EECS 588: Computer and Network Security</title>
+    <meta charset="utf-8">
+    <link href="static/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="top">
+      <h1><a href="./">Computer &amp; Network Security</a></h1>
+      <h2>EECS 588 &ndash; Fall 2020</h2>
+      <p><a class="current" href="./">Overview</a><a href="readings.html">Readings</a><a href="project.html" style="border-right: 0;">Course&nbsp;Project</a></p>
+    </div>
+    <div id="main">
+      <style>
+  table,td { vertical-align: top; margin-left: 0; padding-left: 0; padding-bottom:2pt; }
+  h3 { margin-top: 15px; margin-bottom: 5px; }
+</style>
+<table>
+<tr>
+  <td><b>Professor:</b></td>
+  <td><a href="https://ensa.fi/"><b>Roya Ensafi</b></a></b></td>
+</tr>
+<tr>
+  <td></td>
+  <td>Office hours: TuTh 3:30&ndash;4:30, 4745 Beyster, or by appointment</td>
+</tr>
+<tr>
+  <td><b>Credits:</b></td>
+  <td>4.&nbsp; &nbsp;This course counts towards meeting software quals requirements.</td>
+</tr>
+<tr>
+  <td><b>Prerequisites:</b>&nbsp;</td>
+  <td>EECS 482 Operating Systems, EECS 388 Introduction to Security, or grad standing.<br>
+	Success in this course requires a mature understanding of software systems.</td>
+</tr>
+<tr>
+  <td><b>Lectures:</b></td>
+  <td>TuTh 1:30&ndash;3:30, 2166 DOW</td>
+</tr>
+<tr>
+  <td><b>GSI:</b></td>
+  <td><a href="https://ramakrishnansr.com/">Ramakrishnan Sundara Raman</a> (4808 Beyster, meetings by appointment)</td>
+</tr>
+<tr>
+  <td><b>Forum:</b></td>
+  <td>We'll use <a href="https://piazza.com/umich/Fall2020/eecs588">Piazza</a> for online discussion and announcements.<br>
+	For administrative issues, email <a href="mailto:eecs588@umich.edu">eecs588@umich.edu</a>.</td>
+</tr>
+<tr>
+  <td><b>Resources</b></td>
+  <td>
+    <a href="https://www.cse.umich.edu/security/">Security Research at Michigan</a><br>
+    <a href="https://wiki.eecs.umich.edu/secrit/index.php/Main_Page">Security Reading Group</a><br>
+  </td>
+</tr>
+</table>
+
+<p>This intensive research seminar covers foundational work and
+current topics in computer systems security.  We will read research
+papers and discuss attacks and defenses against operating systems,
+client-side software, web applications, and IP networks.  Students
+will be prepared for research in computer security and for
+security-related research in other subareas, and they will gain
+hands-on experience designing and evaluating secure systems.</p>
+
+<h2>Preliminary Topic List</h2>
+
+<p>There will be many opportunities to tailor the course to your
+backgrounds and interests.  The tentative list of topics below should
+give you an idea of what to expect. See <a href="readings.html">reading list</a> for additional details.  Please
+get in touch if you have questions or suggestions.
+
+<h3> Building Blocks</h3>
+
+<a href="static/key.jpg"><img style="display: block; background-color: white; padding: 8px 10px; margin: 0 0 10px 10px; border:1px solid #888; float:right;" src="static/key_sm.jpg"></a>
+
+<small>The security mindset, thinking like an attacker, reasoning about risk, research ethics<br>
+Key exchange, public-key cryptography, key management, the TLS protocol</small>
+
+<h3>Software Security</h3>
+
+<small>
+Malware: viruses, spyware, rootkits &ndash; operation and detection<br>
+Automated security testing and tools for writing secure code<br>
+Virtualization, sandboxing, and OS-level defenses</small>
+
+<h3>Web Security</h3>
+
+<small>The browser security model<br>
+Web site attacks and defenses: cross-site scripting, SQL injection, cross-site request forgery<br>
+Internet crime: spam, phishing, botnets &ndash; technical and nontechnical responses</small>
+
+<h3>Network Security</h3>
+
+<small>Network protocols security: TCP and DNS &ndash; attacks and defenses<br>
+Policing packets: Firewalls, VPNs, intrusion detection<br>
+Denial of service attacks and defenses<br>
+Wireless and mobile device security<br>
+Data privacy, anonymity, censorship, surveillance</small>
+
+<h3>Special Topics</h3>
+
+<small>Hardware security &ndash; attacks and defenses<br>
+Trusted computing and digital rights management<br>
+Physical security &ndash; locks and safes</small>
+
+<h2>Grading</h2>
+
+There will be no exams.  Instead, your grade will be based on the
+following:
+
+<p><b>Class Participation (5%)</b> &mdash; We will read two research
+papers for each class.  Come prepared to discuss them and make
+substantive intellectual contributions.</p>
+
+<p><b><a href="readings.html">Paper Responses</a>
+(15%)</b> &mdash; You are required to write a short critical response
+for each paper we read.  I'll look for evidence that you read
+the paper and thought carefully about the topic.  Responses are due at
+the beginning of class.</p>
+
+<p><b><a href="attacks.html">Paper Presentation</a>
+(20%)</b> &mdash; Working with a partner, choose a topic from the reading list and 
+read 3-4 more recent papers and provide a 20 minute presentation about the current state of a research area at the start of one class.</p>
+
+<p><b><a href="project.html">Research Project</a>
+(50%)</b> &mdash; You will conduct an extended research project during
+the semester, with the goal of writing a publishable workshop paper.
+This work should be done in a group of size appropriate to the scope
+of your investigation.  Typical project topics involve analyzing the
+security of a system or developing a new security mechanism.</p>
+
+
+<h2>Ethics, Law, and University Policies</h2>
+<p>
+  To defend a system, you need to be able to think like an attacker,
+  and that includes understanding techniques that can be used to
+  compromise security. However, using those techniques in the real
+  world may violate the law or the university&rsquo;s rules, and it
+  may be unethical. Under some circumstances, even probing for
+  weaknesses may result in severe penalties, up to and including
+  expulsion, civil fines, and jail time.  Our policy in EECS 588 is
+  that you must respect the privacy and property rights of others at
+  all times, <b><u>or else you will fail the course</u></b>.
+</p>
+<p>
+  Acting lawfully and ethically is your responsibility.  Carefully read
+  the <a href="https://www.law.cornell.edu/uscode/18/1030.html">Computer
+  Fraud and Abuse Act</a> (CFAA), a federal statute that broadly
+  criminalizes computer intrusion. This is one of several laws that
+  govern &ldquo;hacking.&rdquo; Understand what the law prohibits
+  &mdash; you don&rsquo;t want to end up
+  like <a href="https://en.wikipedia.org/wiki/Sarah_Palin_email_hack">this
+  guy</a>. The EFF provides helpful advice
+  on <a href="https://www.eff.org/issues/coders/vulnerability-reporting-faq">vulnerability
+  reporting</a>
+  and <a href="https://www.eff.org/issues/coders/grey-hat-guide">other
+  legal matters</a>.  If in doubt, we can refer you to an attorney.
+</p>
+<p>
+  Please
+  review <a href="http://www.itcs.umich.edu/itcsdocs/r1103/">ITS&rsquo;s
+  policies on responsible use of technology resources</a>
+  and <a href="http://caen.engin.umich.edu/policies">CAEN&rsquo;s
+  policy documents</a> for guidelines concerning proper use of
+  information technology at U-M, as well as
+  the <a href="http://honorcode.engin.umich.edu/">Engineering Honor
+  Code</a>. As members of the university, you are required to abide by
+  these policies.
+</p>
+
+    </div>
+  </body>
+</html>

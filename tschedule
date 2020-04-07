@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+  <!-- (c) 2015 J. Alex Halderman -->
+  <head>
+    <title>EECS 588 - Course Schedule</title>
+    <meta charset="utf-8">
+    <link href="static/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="top">
+      <h1><a href="./">Computer &amp; Network Security</a></h1>
+      <h2>EECS 588 &ndash; Winter 2016</h2>
+      <p><a href="./">Overview</a><a class="current" href="schedule.html">Schedule</a><a href="readings.html">Readings</a><a href="attacks.html">Attack&nbsp;Presentations</a><a href="project.html" style="border-right: 0;">Course&nbsp;Project</a></p>
+    </div>
+    <div id="main">
+      <style>
+  table { border: 1px solid #aaa; border-bottom: 0; }
+  td,th { padding: 6pt 12pt; }
+  tr:nth-child(odd) { background: white; }
+  tr:nth-child(even) { background: #d8d8d8; }
+  th, td.week, td.topic, td.break { background-color: #e8e8e8; }
+  td.break { padding-top: 12pt; padding-bottom: 12pt; }
+  th, td.week, td.topic, td.break, tr:last-child td, tr:nth-child(even) td { border-bottom: 1px solid #aaa; }
+  td.week { border-right: 1px solid #aaa; }
+  td.week, td.break { text-align: center; }
+  td.break { font-weight: bold; }
+</style>
+
+<h3>Preliminary Schedule (will be revised)</h3>
+
+<table align=center cellpadding=0 cellspacing=0>
+
+  <thead>
+    <th><b>Readings</b></th>
+    <th><b>Topic</b></th>
+    <th><b>Date</b></th>
+    <th><b>Attack<br>Presentations</b></th>
+    <th><b>Course Project<br>Deadlines</b></th>
+  </thead>
+
+  <tr>
+    <td class=week rowspan=2>
+      Week&nbsp;1
+    </td>
+    <td class=topic rowspan=2>
+      Essential Crypto
+    </td>
+  </tr>
+  <tr>
+    <td>1/7/16*</td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td class=week rowspan=2>
+      <a href="readings.html#week2">Week&nbsp;2</a>
+    </td>
+    <td class=topic rowspan=2>
+      Welcome / Crypto
+    </td>
+    <td>1/12/16</td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>1/14/16</td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td class=week rowspan=2>
+      <a href="readings.html#week3">Week&nbsp;3</a>
+    </td>
+    <td class=topic rowspan=2>
+      Real World Crypto
+    </td>
+    <td>1/19/16</td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>1/21/16</td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td class=week rowspan=2>
+      <a href="readings.html#week4">Week&nbsp;4</a>
+    </td>
+    <td class=topic rowspan=2>
+      Binary Exploitation
+    </td>
+    <td>1/26/16</td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>1/28/16*</td>
+    <td>
+      <a href="attacks.html#control">Control-flow exploitation</a><br>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td class=week rowspan=2>
+      <a href="readings.html#week5">Week&nbsp;5</a>
+    </td>
+    <td class=topic rowspan=2>
+      Malicious Software
+    </td>
+    <td>2/2/16</td>
+    <td>
+      <a href="attacks.html#trojan">Compiler Trojan horse</a><br>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>2/4/16</td>
+    <td>
+      <a href="attacks.html#rootkit">Kernel-level rootkit</a><br>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td class=week rowspan=2>
+      <a href="readings.html#week6">Week&nbsp;6</a>
+    </td>
+    <td class=topic rowspan=2>
+      Web Security
+    </td>
+    <td>2/9/16*</td>
+    <td>
+      <a href="attacks.html#xss">Malicious code in websites</a><br>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>2/11/16</td>
+    <td>
+      <a href="attacks.html#cookies">Abusing cookies</a><br>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td class=week rowspan=2>
+      <a href="readings.html#week7">Week&nbsp;7</a>
+    </td>
+    <td class=topic rowspan=2>
+      Mobile Security
+    </td>
+    <td>2/16/16</td>
+    <td>
+      <a href="attacks.html#phone">Smartphone spyware</a><br>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>2/18/16</td>
+    <td>
+    </td>
+    <td>
+      <a href="project.html#preprop">Pre-proposal</a><br>presented in class<br>
+    </td>
+  </tr>
+  <tr>
+    <td class=week rowspan=2>
+      <a href="readings.html#week8">Week&nbsp;8</a>
+    </td>
+    <td class=topic rowspan=2>
+      Human Factors
+    </td>
+    <td>2/23/16*</td>
+    <td>
+      <a href="attacks.html#CAPTCHA">CAPTCHA cracking</a><br>
+      <a href="attacks.html#password">Password cracking</a><br>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>2/25/16*</td>
+    <td>
+      <a href="attacks.html#phishing">Fooling web users</a><br>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td class=break colspan=6>&ldquo;Spring&rdquo; Break</td>
+  </tr>
+  <tr></tr>
+  </tr>
+  <tr>
+    <td class=week rowspan=2>
+      <a href="readings.html#week9">Week&nbsp;9</a>
+    </td>
+    <td class=topic rowspan=2>
+      Network Security
+    </td>
+    <td>3/8/16</td>
+    <td>
+      <a href="attacks.html#spoofing">DNS cache poisoning</a><br>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>3/10/16</td>
+    <td>
+      <a href="attacks.html#ap">Rogue wireless access point</a><br>
+    </td>
+    <td>
+      <a href="project.html#proposal">Written proposal</a><br>due Friday 3/11<br>
+    </td>
+  </tr>
+  <tr>
+    <td class=week rowspan=2>
+      <a href="readings.html#week10">Week&nbsp;10</a>
+    </td>
+    <td class=topic rowspan=2>
+      Security and Government
+    </td>
+    <td>3/15/16</td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>3/17/16</td>
+    <td>
+      <a href="attacks.html#firmware">Firmware-resident malware</a><br>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td class=week rowspan=2>
+      <a href="readings.html#week11">Week&nbsp;11</a>
+    </td>
+    <td class=topic rowspan=2>
+      Critical Systems/Thinking
+    </td>
+    <td>3/22/16*</td>
+    <td>
+      <a href="attacks.html#device">Malicious peripherals</a><br>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>3/24/16</td>
+    <td>
+      <a href="attacks.html#crime">TLS information leakage</a><br>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td class=week rowspan=2>
+      <a href="readings.html#week12">Week&nbsp;12</a>
+    </td>
+    <td class=topic rowspan=2>
+      Privacy and Confidentiality
+    </td>
+    <td>3/29/16</td>
+    <td>
+      <a href="attacks.html#coldboot">Cold-boot attack</a><br>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>3/31/16*</td>
+    <td>
+      <a href="attacks.html#tracking">Web tracking</a><br>
+    </td>
+    <td>
+      <a href="project.html#checkpoint">Project checkpoint</a><br>due Friday 4/1<br>
+    </td>
+  </tr>
+  <tr>
+    <td class=week rowspan=2>
+      <a href="readings.html#week13">Week&nbsp;13</a>
+    </td>
+    <td class=topic rowspan=2>
+      Online Freedom
+    </td>
+    <td>4/5/16</td>
+    <td>
+      <a href="attacks.html#deanon">Traffic deanonymization</a><br>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>4/7/16</td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td class=week rowspan=2>
+      Week&nbsp;14
+    </td>
+    <td class=topic rowspan=2>
+      Project Presentations
+    </td>
+    <td>4/12/16</td>
+    <td>
+    </td>
+    <td>
+      <a href="project.html#present">Final presentations</a><br>
+    </td>
+  </tr>
+  <tr>
+    <td>4/14/16</td>
+    <td>
+    </td>
+    <td>
+      <a href="project.html#present">Final presentations</a><br>
+      <a href="project.html#final">Final paper</a> due<br>Wednesday 4/20<br>
+    </td>
+  </tr>
+</table>
+
+    </div>
+    <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '52d47937eddd5b3794000063');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+  </body>
+</html>

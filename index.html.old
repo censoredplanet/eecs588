@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+    <!-- (c) 2018 Kevin Fu -->
+    <head>
+        <title>EECS 588: Computer and Network Security</title>
+        <meta charset="utf-8">
+        <link href="static/style.css" rel="stylesheet">
+    </head>
+
+<body>
+
+        <div id="top">
+            <h1><a href="./">Computer &amp; Network Security</a></h1>
+            <h2>EECS 588 &ndash; Winter 2018</h2>
+<!--
+
+	  <p><a class="current" href="./">Overview</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="readings.html">Readings</a>
+            <a href="labs.html">Labs</a>
+            <a href="project.html" style="border-right: 0;">Course&nbsp;Project</a></p>
+	-->
+
+	</div>
+
+	
+        <div id="main">
+            <style>
+table,td { vertical-align: top; margin-left: 0; padding-left: 0; padding-bottom:2pt; }
+
+h3 { margin-top: 15px; margin-bottom: 5px; }
+	  </style>
+
+	              <a href="static/probe.jpg"><img style="display: block;
+	    background-color: white; padding: 8px 10px; margin: 0 0
+	    10px 10px; border:1px solid #888; float:right;"
+	    src="static/probe_sm.jpg"></a> 
+
+	  <a href="static/scope.jpg"><img style="display: block;
+	    background-color: white; padding: 8px 10px; margin: 0 0
+	    10px 10px; border:1px solid #888; float:right;"
+	    src="static/scope_sm.jpg"></a> 
+
+	  
+
+	  <p><b><font color="red">New this year:</font> The course will emphasize embedded
+	    security research for protecting emerging computing
+	    systems with application to medical devices, autonomous
+	  vehicles, and IoT. </b> </p>
+	  
+
+
+	  <table>
+                <tr>
+                    <td><b>Instructor:</b></td>
+                    <td><a href="https://web.eecs.umich.edu/~kevinfu/"><b>Kevin Fu</b></a></td>
+                </tr>
+                <tr>
+                    <td></td>
+<!--                    <td>Office hours: 4628 Beyster, TBA or by
+                appointment</td> -->
+                </tr>
+                <tr>
+                    <td><b>Credits:</b></td>
+                    <td>4.&nbsp; &nbsp;This course counts towards meeting software quals requirements.</td>
+                </tr>
+                <tr>
+                    <td><b>Prerequisites:</b>&nbsp;</td>
+                    <td><a href="#prereq">**Graduate standing</a> in EECS, or EECS482, or EECS489.  <br>
+                        Success in this course requires a mature understanding of computer systems.</td>
+                </tr>
+                <tr>
+                    <td><b>Lectures:</b></td>
+		    <td>TuTh 1:30&ndash;3:30PM, 1690 Beyster</td>
+		  </tr>
+		  <tr>
+		    <td><b>Lab:</b></td>
+		    <td>Open Mon 3:00&ndash;5:00PM and Fri
+		      8:30&ndash;10:30AM, 2336 EECS<br>
+		      (not weekly; open only when homework involves benchtop lab equipment)</td>
+		    
+                </tr>
+                <tr>
+                    <td><b>GSI:</b></td>
+                    <td><b><a href="connorbolton.com"><b>Connor Bolton</b></a></td>
+                </tr>
+                <tr>
+                    <td></td>
+<!--                    <td>Office hours: TBA</td>  -->
+                </tr>
+                <tr>
+                    <td><b>GSI:</b></td>
+                    <td><b><a href="andrewkwong.org"><b>Andrew Kwong</b></a></td>
+                </tr>
+                <tr>
+                    <td></td>
+<!--                    <td>Office hours: TBA</td>  -->
+                </tr>
+                <tr>
+                    <td><b>Forum:</b></td>
+                    <td>We use <a href="https://piazza.com/umich/winter2018/eecs588">Piazza</a> for online discussion and announcements.<br>
+                        For administrative issues, email <a href="mailto:eecs588.w17@umich.edu">eecs588.w18@umich.edu</a>.</td>
+                </tr>
+                <tr>
+                    <td><b>Resources</b></td>
+                    <td>
+		      <a href="https://ches.iacr.org/">Cryptographic
+		      Hardware and Embedded Security (CHES) Workshop</a><br>
+		      <a
+                href="https://www.usenix.org/conference/usenixsecurity17">USENIX
+		      Security</a><br>
+		      <a
+                href="https://www.ieee-security.org/TC/SP2018/">IEEE
+		      Security and Privacy (Oakland)</a><br>
+		      <a
+                href="https://www.sigsac.org/ccs/CCS2017/">ACM CCS</a><br>
+		    </td>
+                </tr>
+            </table>
+
+            <p>This intensive research course covers foundational work and
+            current topics in computer systems security.  We will analyze research
+            papers, write technical essays, and carry out benchtop experiments.  Students
+            will be prepared for graduate research in computer
+            security. Students will
+            learn methodologies for reproducible research, and
+            experience the art of technical writing to
+            communicate complex thoughts in simple prose. Students will gain
+            hands-on experience designing and evaluating secure
+            computer systems.</p>
+
+
+<h2><a name="prereq">**</a>Prereqs</h2>
+
+<p>This is a course designed for PhD students. Upper-level undergraduates with experience in computer engineering
+or computer system security (e.g., EECS473, EECS388) may contact staff for consideration of an override.
+Email the staff a paragraph on your computer engineering and/or security experience (with previous grades) and how
+graduate-level research in embedded security would fit in your career
+plans.  The official prereqs are certain EECS courses that the
+instructor has never attended or taken.  Having experience in computer
+engineering or electronics will give you an advantage, but we
+will teach students how to use basic benchtop electronics
+	    equipment.  Students should have a mastery of
+	    English exposition.</p>
+
+	    
+	    <a href="static/nonlinear.jpg"><img style="display: block;
+	    background-color: white; padding: 8px 10px; margin: 0 0
+	    10px 10px; border:1px solid #888; float:right;"
+	    src="static/nonlinear_sm.jpg"></a> 
+
+
+	    <h2>Preliminary Topic List</h2>
+
+
+	    <p>The tentative list of topics below should
+	    give you an idea of what to expect.
+
+	    
+            <h3>Part 1: Building Blocks</h3>
+
+            <a href="static/hwsec.jpg"><img style="display: block;
+	    background-color: white; padding: 8px 10px; margin: 0 0
+	    10px 10px; border:1px solid #888; float:right;"
+	    src="static/hwsec_sm.jpg"></a> 
+
+            <small>Threat modeling, principles of information security
+	    and privacy, risk, research ethics<br>
+	    Foundations: Science of Security<br>
+	    Lab: Intro to oscilloscopes, Fourier
+	    transforms, function generators, software radios
+                </small>
+
+            <h3>Part 2: Embedded Security</h3>
+
+	    <small>Side channels, spectral analysis, timing attacks,
+	    power analysis, data remanence <br>
+	    Applications: Smartcards, RFID, IoT<br>
+	    Lab: Side channel analysis of cryptographic hardware
+	    </small>
+
+            <h3>Part 3: Sensor Security</h3>
+
+            <small>Physics of security, transducers, MEMS,
+	    audible and ultrasonic acoustics, RF, optics<br>
+	    Applications: Medical devices, autonomous vehicles<br>
+	    Lab: Fault injection attacks and intentional interference against analog sensors
+	    </small>
+
+            <h3>Part 4: Computer Systems Security</h3>
+
+	    <small>Web security, network security, anonymity,
+cryptography and security protocols, PL <br>
+Applications: Internet security, software security<br>
+Lab: Group projects
+           </small>
+
+            <h3>Part 5: Special Topics</h3>
+
+            <small>Human factors, Internet crime, spam, phishing,
+           economics, public policy<br>
+Applications: Society and the Real World<br>
+Lab: Group projects
+</small>
+
+
+
+            <h2>Grading</h2>
+
+            There will be no exams.  Instead, your grade will be based on the
+            following:
+
+            <p><b>Class Participation and Paper Presentation (15%)</b>
+            &mdash; Every week, we will suggest supplementary papers
+            associated with the core reading.  Each student will have
+            an opportunity for one five-minute presentation on a recent
+            paper.  Pedantic use of slides are frowned upon unless there are key
+           measurements difficult to convey in chalk.
+
+            </p>
+
+            <p><b><a href="readings.html">Essays</a>
+                (20%)</b> &mdash; Most weeks, students will write a one-page
+            essay pertaining to a research question posed in the
+                context of a published paper.  We'll look for evidence of
+                critical thinking and analysis rather than merely summarizing a paper. Responses are due before
+            the beginning of lecture.  Essays must be PDF (no Word), double spaced,
+                11pt or 12pt font, and 1 inch margins. The header must
+                contain a meaningful title, your name, and date. You
+                may turn in essays early, especially when 
+                traveling;
+                late essays will receive a zero.  To accommodate for
+                illness and other unavoidable and unexpected
+                interruptions, we will automatically drop your
+                lowest essay grade when tabulating final grades.</p>
+
+            <p><b><a href="labs.html">Hands-on Labs</a>
+                (20%)</b> &mdash; Working in small teams, students
+                will carry out
+                several homework assignments pertaining to reproducing embedded
+                security experiments from our paper reading.
+                Homeworks range from learning how to use an
+                oscilloscope to simple power analysis to extract
+                cryptographic keys from a microcontroller. </p>
+
+            <p><b><a href="project.html">Research Project</a>
+                (45%)</b> &mdash; You will conduct an extended research project during
+            the semester, with the goal of writing a publishable workshop paper.
+            This work should be done in a small group of 2-3 students.
+                Typical project topics involve reproducing previously
+                published research to find interesting new directions or analyzing the
+            security of a system or developing a new security mechanism.</p>
+
+
+            <h2>Ethics, Law, and University Policies</h2>
+            <p>
+            To defend a system, you need to be able to think like an attacker,
+            and that includes understanding techniques that can be used to
+            compromise security. However, using those techniques in the real
+            world may violate the law or the university&rsquo;s rules, and it
+            may be unethical. Under some circumstances, even probing for
+            weaknesses may result in severe penalties, up to and including
+            expulsion, civil fines, and jail time.  Our policy in EECS 588 is
+            that you must respect the privacy and property rights of others at
+            all times, <b><u>or else you will fail the course</u></b>.
+            </p>
+            <p>
+            Acting lawfully and ethically is your responsibility.  Carefully read
+            the <a href="https://www.law.cornell.edu/uscode/18/1030.html">Computer
+                Fraud and Abuse Act</a> (CFAA), a federal statute that broadly
+            criminalizes computer intrusion. This is one of several laws that
+            govern &ldquo;hacking.&rdquo; Understand what the law prohibits
+            &mdash; you don&rsquo;t want to end up
+            like <a href="https://en.wikipedia.org/wiki/Sarah_Palin_email_hack">this
+                guy</a>. The EFF provides helpful advice
+            on <a href="https://www.eff.org/issues/coders/vulnerability-reporting-faq">vulnerability
+                reporting</a>
+            and <a href="https://www.eff.org/issues/coders/grey-hat-guide">other
+                legal matters</a>.  If in doubt, we can refer you to an attorney.
+            </p>
+            <p>
+            Please
+            review <a href="http://www.itcs.umich.edu/itcsdocs/r1103/">ITS&rsquo;s
+                policies on responsible use of technology resources</a>
+            and <a href="http://caen.engin.umich.edu/policies">CAEN&rsquo;s
+                policy documents</a> for guidelines concerning proper use of
+            information technology at U-M, as well as
+            the <a href="http://honorcode.engin.umich.edu/">Engineering Honor
+                Code</a>. As members of the university, you are required to abide by
+            these policies.
+            </p>
+
+        </div>
+        <script type="text/javascript">
+var _gauges = _gauges || [];
+(function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '52d47937eddd5b3794000063');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+})();
+        </script>
+    </body>
+</html>

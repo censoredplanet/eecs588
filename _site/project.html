@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+    <!-- (c) 2015 J. Alex Halderman -->
+    <head>
+        <title>EECS 588: Computer and Network Security</title>
+        <meta charset="utf-8">
+        <link href="static/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="top">
+            <h1><a href="./">Computer &amp; Network Security</a></h1>
+            <h2>EECS 588 &ndash; Winter 2017</h2>
+            <p><a class="current" href="./">Overview</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="readings.html">Readings</a>
+            <a href="labs.html">Labs</a>
+            <a href="project.html" style="border-right: 0;">Course&nbsp;Project</a></p>
+        </div>
+        <div id="main">
+            <style>
+
+ul.resp {
+  margin-bottom: 0;
+}
+ul.resp > li {
+  margin: 8pt;
+}
+
+ul.outline {
+  margin-top: 6pt;
+  counter-reset: list;
+  list-style-type: upper-alpha;
+}
+ul.outline > li {
+  margin: 6pt;
+}
+ul.outline ol li:first-child {
+  margin-top: 4pt;
+}
+
+ul.outline ol li {
+  list-style: none;
+}
+ul.outline ol li:before {
+  counter-increment: list;
+  content: "(" counter(list) ") "
+}
+
+div.symposium div {
+  position: relative;
+  font-size: 1em;
+  padding-bottom: 16pt;
+}
+
+div.symposium h3 {
+  margin: 0;
+  padding-top: 8pt;
+  padding-bottom: 6pt;
+}
+
+div.symposium > div {  
+   float: left;
+   width: 50%;
+}
+
+div.symposium > div > ul {
+   margin: 0;
+   padding: 0 5pt;
+   counter-reset: list;
+}
+
+div.symposium > div > ul > li {
+  list-style: none;
+  margin: 2.5pt 0 2.5pt 0;
+  line-height: 1.25em;
+  padding: 5pt 10pt 5pt 10pt;
+  background-color: white;
+  position: relative;
+  counter-increment: list;
+  border: 2px solid white;
+}
+
+li > span.t {
+  font-weight: normal !important;
+  float: left;
+  height: 40pt;
+  width: 32pt;
+}
+
+div.symposium > div > ul:before {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.67em;
+  letter-spacing: 1px;
+  color: #808080;
+  margin-left: 2.5pt;
+  line-height: 1em;
+}
+
+div.symposium  h2 {
+  clear: both;
+  counter-increment: week;
+  text-align: center;
+  font-size: 1.16em;
+  background-color: #f6d565;
+  padding: 2.5pt 5pt;
+  margin: 0 5pt;
+  border-top: 2px solid #ea2;
+  border-bottom: 2px solid #ea2;
+}
+
+div.symposium  h3 {
+  font-size: 1.08em;
+}
+div.symposium h3 > span.note:before {
+  content: " \2014\a0";
+  color: black;
+}
+
+div.symposium  h3 > span.note {
+  font-style: italic;
+  color:#cc0000;
+}
+
+div.symposium ul li a {
+  font-weight: bold;
+}
+div.symposium ul li span {
+  font-weight: bold;
+}
+
+h3 { clear: both; }
+</style>
+
+<h2 class="tophead">Course Project</h2>
+
+<p>Your course project should address an important, interesting open
+problem related to computer security.  It's up to you to find a good
+topic, but we are happy to discuss your project ideas individually
+and help you refine them.</p>
+
+<p>We recommend working in groups of 3 or 4. The larger the group, the
+more we'll expect you to accomplish.</p>
+
+<a name="preprop"></a><h3>Pre-Proposal Presentation &mdash; In class, February 16</h3>
+
+<p>Give a 5 minute presentation explaining the problem you want to
+work on, the most important related work, and your tentative approach.
+This will be an early opportunity to get feedback from the class.
+
+<a name="proposal"></a><h3>Written Proposal &mdash; Due Thursday, March 9</h3>
+
+<p>Your proposal should consist of a 2&ndash;3 page description of
+your project that includes the following:</p>
+
+<ol>
+<li><b>Group:</b> Group member names and uniqnames.
+<li><b>Title:</b> What would you call the eventual paper or product?
+<li><b>Problem:</b> A description of the problem you will address and why it is important.
+<li><b>Context:</b> A survey of related work and past approaches to the problem.
+<li><b>Approach:</b> How you will address the problem and how your approach differs from past work.
+<li><b>Evaluation:</b> How you will test how well your approach works (e.g., experimental measurements).
+<li><b>Scope:</b> What you plan to accomplish and deliver by the checkpoint and by the end of the semester.
+</ol>
+
+<p>Email your proposal to <a href="mailto:eecs588.w17@umich.edu">eecs588.w17@umich.edu</a>.</p></p>
+
+<a name="checkpoint"></a><h3>Project Checkpoint &mdash; Due Tuesday, April 4</h3>
+
+<p>Write a concise status report (no more than two pages) answering
+the following questions:
+
+<ol>
+<li><b>Progress:</b> What have you accomplished so far?  What do you have left to do?
+<li><b>Schedule:</b> Are you on track to complete what you proposed?
+<li><b>Obstacles:</b> Have you encountered any surprises or unexpected problems? 
+<li><b>Workarounds:</b> If you're having problems, how do you intend to solve them or work around them?
+<li><b>Preliminary results:</b> Can you draw any preliminary conclusions from your results so far?  Include data.
+</ol>
+
+<p>Email your status report to <a href="mailto:eecs588.w17@umich.edu">eecs588.w17@umich.edu</a>.  You're also welcome to come see us if you need advice.</p>
+
+<a name="present"></a><h3>Project Presentation &mdash; In class, April 11 and 13</h3>
+
+<p>The last full week of class is set aside for the <b>9th Annual EECS&nbsp;588
+Security Symposium</b>. Each group will give an in-class
+presentation about their results, in the style of a brief conference talk.
+These will be rapid fire talks; you'll have <b>10 minutes</b> to speak and 5 minutes for questions.
+
+<p>We will assign presentation timeslots and post the schedule here in
+early April.</p>
+
+<!--
+<p>Preliminary program:</p>
+
+<div class="symposium">
+<div>
+<h2>Tuesday, <span>April 12</span></h2>
+
+<ul>
+<h3>Session 1: Transportation Security</h3>
+<li><span class=t>1:45</span> <span>Security Analysis of the SAE J1939 Standard</span>.<br>Leif, Bill, and Yelizaveta.</li>
+<li><span class=t>2:00</span> <span>Detecting Attacks on the CAN Protocol with Machine Learning</span>.<br>Valliappa, Ian, Daniel, and Spencer.</li>
+</ul>
+
+<ul>
+<h3>Session 2: Detection and Measurement</h3>
+<li><span class=t>2:15</span> <span>Deep Learning for Detecting Image Doctoring</span>.<br>Mark and Ye.</li>
+<li><span class=t>2:30</span> <span>Fast Mobile Network Vulnerability Scanning</span>.<br>Yikai and Chao.</li>
+<li><span class=t>2:45</span> <span>Passive Measurement on High-speed Backbones</span>.<br>Matt.</li>
+</ul>
+
+<ul>
+<h3>Session 3: Low-level Attacks I</h3>
+
+<li><span class=t>3:00</span> <span>Leveraging Advanced Cache Technology for Rowhammering</span>.<br>Misiker, Sinan, and Sherin.</li>
+</ul>
+
+</div>
+<div>
+
+<h2>Thursday, <span>April 14</span></h2>
+<ul>
+
+<h3>Session 4: Low-level Attacks II</h3>
+<li><span class=t>1:45</span> <span>Subverting RNGs from Hypervisors</span>.<br>Jeremy, Tim, and Andrew.</li>
+
+
+<h3>Session 5: Securing the Web</h3>
+<li><span class=t>2:00</span> <span>Assessing the Usability of HTTPS CAs</span><br>Deepak, Victor, and Prateek.</li>
+<li><span class=t>2:15</span> <span>Cost-Benefit Analysis of Web Encryption Exploits</span>.<br>Matt and Alex.</li>
+<li><span class=t>2:30</span> <span>Analysis and Defenses for Cross Site Request Attacks</span>.<br>Angela, John, and Tejas.</li>
+</ul>
+
+<ul>
+<h3>Session 6: Reverse Engineering and Pen Testing</h3>
+<li><span class=t>2:45</span> <span>Analysis of DRM for Web-based Video</span>.<br>Kegan, Mo, Mayank, and Ben.</li>
+<li><span class=t>3:00</span> <span>Reverse Engineering a Smart Lock</span>.<br>Aaron, Garrison, and Sarah.</li>
+<li><span class=t>3:15</span> <span>Penetration Testing of University Autograders</span>.<br>Ian, Austin, and Ryan.</li>
+</ul>
+
+</div>
+</div>
+-->
+
+<a name="final"></a><h3>Final Paper &mdash; Due Tuesday, April 18 at 5pm</h3>
+
+<p>Your group's final project report should be written in the style of
+a workshop or conference submission, like most of the papers we have
+read this semester.  Please include at least the following:
+<ol>
+<li>An <b>abstract</b> that summarizes your work.
+<li>An <b>introduction</b> that motivates the problem you are trying to solve.
+<li>A <b>related work</b> section that differentiates your contributions.
+<li>Section(s) describing your <b>architecture</b> or <b>methodology</b>.
+<li><b>Results</b> and/or <b>evaluation</b> section(s), with data or figures to support your claims as appropriate.
+<li>A brief <b>future work</b> section explaining what is left to do.
+<li>Appropriate citations and <b>references</b> from the literature.
+<li>A brief paragraph containing a break-down of contribtutions of each project member.
+</ol>
+
+<p>See also: Advice on <a href="http://www.cs.columbia.edu/~hgs/etc/writing-style.html">writing technical articles</a>.</p>
+
+<p>The length of your report should not exceed 8 typeset pages,
+excluding bibliography and well-marked appendices. There is no limit
+on the length of appendices, but graders are not required to read
+them. The text must be formatted in two columns, using 10 point Times
+Roman type on 12 point leading, in a text block of 6.5&rdquo; by
+9&rdquo;.  We <i>strongly encourage</i> you to
+use <a href="https://en.wikibooks.org/wiki/LaTeX">LaTeX</a> and
+the <a href="https://www.usenix.org/conferences/author-resources/paper-templates">
+USENIX template files</a>,
+and <a href="https://www.overleaf.com/">Overleaf</a> might be a
+helpful collaboration platform.  Please submit your report via email
+to
+<a href="mailto:eecs588.w17@umich.edu">eecs588.w17@umich.edu</a>.</p>
+
+<h3>Submitting Your Work for Publication</h3>
+
+<p>You should consider submitting your results to a technical workshop.
+There are <a href="https://www.usenix.org/conference/usenixsecurity17">several
+workshops</a> held annually in conjunction with USENIX Security that
+have deadlines in late April and May.  We'll be glad to advise you
+further in preparation for submission.</p>
+
+
+    </div>
+    <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '52d47937eddd5b3794000063');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+  </body>
+</html>
