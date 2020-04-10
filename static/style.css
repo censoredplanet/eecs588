@@ -11,6 +11,7 @@ body {
 }
 
 #main {
+  overflow-y: scroll;
   max-width: 840px;
   padding: 1em 2em 1em 2em;
   margin: 0 auto 0 auto;
