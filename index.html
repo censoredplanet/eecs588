@@ -1,22 +1,16 @@
-<!DOCTYPE html>
-<html>
-  <!-- (c) adopted from 2015 J. Alex Halderman -->
-  <head>
-    <title>EECS 588: Computer and Network Security</title>
-    <meta charset="utf-8">
-    <link href="static/style.css" rel="stylesheet">
-  </head>
-
-  <body>
-    <div id="top">
-      <h1><a href="./">Computer &amp; Network Security</a></h1>
-      <h2>EECS 588 &ndash; Fall 2020</h2>
-      <p><a class="current" href="./">Overview</a><a href="readings.html">Readings</a><a href="project.html" style="border-right: 0;">Course&nbsp;Project</a></p>
-    </div>
-    <div id="main">
+---
+layout: basic
+title: "EECS 588: Computer and Network Security"
+---
+  
+<div id="main">
       <style>
   table,td { vertical-align: top; margin-left: 0; padding-left: 0; padding-bottom:2pt; }
   h3 { margin-top: 15px; margin-bottom: 5px; }
+  span.note {
+  font-style: italic;
+  color:#cc0000;}
+
 </style>
 <table>
 <tr>
@@ -38,7 +32,7 @@
 </tr>
 <tr>
   <td><b>Lectures:</b></td>
-  <td>TBD - Check your emails for a survey link</td>
+  <td>TuTh 1:30–3:30 (Subject to change) - Check your emails for a survey link</td>
 </tr>
 <tr>
   <td><b>GSI:</b></td>
@@ -53,7 +47,7 @@
   <td><b>Forum:</b></td>
   <td>We'll use <a href="https://piazza.com/umich/Fall2020/eecs588">Piazza</a> for online discussion and announcements.<br>
     We'll use <a href="">Canvas</a> for submitting and peer-reviewing Paper Responses<br>
-	For administrative issues, email <a href="mailto:eecs588-staff@umich.edu">eecs588@umich.edu</a>.</td>
+	<span class="note">Please use <a href="mailto:eecs588-staff@umich.edu">eecs588-staff@umich.edu</a> for all correspondence and reporting administrative issues.</span></td>
 </tr>
 <tr>
   <td><b>Resources</b></td>
@@ -79,57 +73,51 @@ backgrounds and interests.  The tentative list of topics below should
 give you an idea of what to expect. See <a href="readings.html">reading list</a> for additional details.  Please
 get in touch if you have questions or suggestions.
 
+<br/>
 
+<a href="static/key.jpg"><img style="display: block; background-color: white; padding: 8px 10px; margin: 0 0 10px 10px; border:1px solid #888; float:right; height:60vh" src="static/key_sm.jpg"></a>
+<h3>Network Security</h3>
 
-
-<h3>Network security</h3>
-<a href="static/key.jpg"><img style="display: block; background-color: white; padding: 8px 10px; margin: 0 0 10px 10px; border:1px solid #888; float:right;" src="static/key_sm.jpg"></a>
   <small>The security mindset, thinking like an attacker, reasoning about risk, research ethics<br>
   Network protocols security: TCP and DNS &ndash; attacks and defenses<br>
-  Policing packets: Firewalls, VPNs, intrusion detection<br>
   Denial of service attacks, botnets and defenses<br>
-  Mobile security
 </small>
 
-<h3>Cryptography and Web Security</h3>
-<small>Key exchange, public-key cryptography, key management, the TLS protocol<br/>
-The browser security model<br>
-Web site attacks and defenses: cross-site scripting, SQL injection, cross-site request forgery<br>
-Human factors and usability</small>
+<h3>Privacy and Human Factors</h3>
+<small>Anonymity, secure messaging, censorship resistance, circumvention<br>
+  Authenticaion, usability in security and privacy<br>
+  Privacy attacks and privacy enhancing technologies<br>
+</small>
 
-<h3>Software Security</h3>
-<small>
+<h3>Systems Security</h3>
+<small>Key exchange, public-key cryptography, real-world cryptography attacks<br/>
+The TLS protocol, certificate ecosystem<br>
 Malware: viruses, spyware, rootkits &ndash; operation and detection<br>
-Automated security testing and tools for writing secure code<br>
-Virtualization, sandboxing, and OS-level defenses<br>
-Machine learning, adversarial machine learning
-</small>
+Hardware attacks, side-channels and OS-level defenses<br/>
+Critical systems, physical attacks</small>
 
 <h3>Special Topics</h3>
-
 <small>
-Hardware security &ndash; attacks and defenses<br>
-Critical systems, physical attacks<br>
-Data privacy, anonymity, censorship, surveillance</small>
+Machine learning, adversarial machine learning<br/>
+Election security and surveillance
+Mobile security</small>
+
 
 <h2>Grading</h2>
 
 There will be no exams.  Instead, your grade will be based on the
 following:
 
-<p><b>Class Participation (5%)</b> &mdash; We will read two research
-papers for each class.  Come prepared to discuss them and make
-substantive intellectual contributions.</p>
+<p><b>Class Participation (5%)</b> &mdash; We will read one&ndash;two research papers for each class. After paper presentation by a group, we will discuss the strengths, weaknesses, scope, and future research areas related to the paper. <span class="note">Note that the discussion part of a lecture will <b>not</b> be recorded, but the paper presentation will be recorded and available on Canvas.</span> Please try to attend the class discussions and be prepared to make
+substantive intellectual contributions. Participation on Canvas and Piazza discussions will also be considered towards this grade.</p>
 
 <p><b><a href="readings.html">Paper Responses</a>
 (15%)</b> &mdash; You are required to write a short critical response
-for each paper we read.  I'll look for evidence that you read
-the paper and thought carefully about the topic.  Responses are due at
-the beginning of class.</p>
+for each paper we read (excluding <i>recommended</i> papers). Responses are due at
+the beginning of class. You will also review and ratee your peers' reviews after the class. Look for evidence that the reviewever thought carefully about the topic. </p>
 
-<p><b><a href="attacks.html">Paper Presentation</a>
-(20%)</b> &mdash; Working with a partner, choose a topic from the reading list and 
-read 3-4 more recent papers and provide a 20 minute presentation about the current state of a research area at the start of Tuesday's class.</p>
+<p><b>Paper Presentation
+(20%)</b> &mdash; Working with a partner, choose one of the topics from the reading list, read both the required and recommended papers, and prepare a 60 minute presentation. 30 minutes of your presentation should discuss details of the required paper and and the other 30 minutes should present an overview of the recommended papers and general research in the area. <span class="note">This part of the class will be recorded and made available on Canvas.</span> You will receive a Google Form after the first class that will let you choose a topic of preferance.</p>
 
 <p><b><a href="project.html">Research Project</a>
 (50%)</b> &mdash; You will conduct an extended research project during
@@ -172,11 +160,11 @@ security of a system or developing a new security mechanism.</p>
   and <a href="http://caen.engin.umich.edu/policies">CAEN&rsquo;s
   policy documents</a> for guidelines concerning proper use of
   information technology at U-M, as well as
-  the <a href="http://honorcode.engin.umich.edu/">Engineering Honor
+  the <a href="https://web.eecs.umich.edu/~aey/eecs206/honor.pdf">Engineering Honor
   Code</a>. As members of the university, you are required to abide by
   these policies.
 </p>
 
     </div>
-  </body>
-</html>
+</body>
+
