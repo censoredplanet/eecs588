@@ -382,7 +382,7 @@
           paper-published: Usenix Security
           paper-year: 2011  
 - week: week10
-  weektitle: (Adverserial) Machine Learning
+  weektitle: (Adversarial) Machine Learning
   days:
     - date: Tuesday, November 17
       title: ML
@@ -403,8 +403,8 @@
           paper-author: Feargus Pendlebury, Fabio Pierazzi, Roberto Jordaney, Johannes Kinder, and Lorenzo Cavallaro
           paper-published: Usenix Security
           paper-year: 2019
-    - date: Tuesday, November 17
-      title: Adverserial ML
+    - date: Tuesday, November 19
+      title: Adversarial ML
       required:
         - paper-title: "Explaining and Harnessing Adversarial Examples"
           paper-link: https://arxiv.org/pdf/1412.6572.pdf
