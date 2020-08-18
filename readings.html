@@ -1,20 +1,10 @@
 ---
 layout: basic
+title: EECS 588 - Reading List
 ---
-  <head>
-    <title>EECS 588 - Reading List</title>
-    <meta charset="utf-8">
-    <link href="static/style.css" rel="stylesheet">
-  </head>
-
-  <body>
-    <div id="top">
-      <h1><a href="./">Computer &amp; Network Security</a></h1>
-      <h2>EECS 588 &ndash; Fall 2020</h2>
-      <p><a href="./">Overview</a><a class="current" href="readings.html">Readings</a><a href="project.html" style="border-right: 0;">Course&nbsp;Project</a></p>
-    </div>
-    <div id="main">
-      <style>
+  
+<div id="main">
+<style>
 ul.resp {
   margin-bottom: 0;
 }
@@ -163,13 +153,10 @@ div.reading ul li a {
   </ol></li>
 </ul>
 <p>Your most important task is to demonstrate that you've <b>read the paper</b> and <b>thought carefully</b> about the topic.</p>
-<p>Paper responses are due before the start of class via the <b>online submission system</b></a>.  Before you upload your work, the system will ask you to assess earlier responses written by your peers.  We'll combine peer feedback and our own evaluation when determining your grade.</p>
+<p>Paper responses are due before the start of class via the <b>online submission system</b></a>.  After you upload your work, the system will ask you to assess two responses written by your peers.  We'll combine peer feedback and our own evaluation when determining your grade.</p>
 
 <a name="list"></a>
 <h3>Reading List</h3>
-
-<p> <b>This list is subject to change.  Updates will be posted by August 15, 2020.</p>
-
 <div class="reading">
   {% for week in site.data.readings %}
   <a name="{{ week.weeknumber }}"></a>
@@ -218,4 +205,4 @@ div.reading ul li a {
     </div>
     
   </body>
-</html>
+
