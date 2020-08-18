@@ -1,0 +1,469 @@
+- week: week1
+  weektitle: Welcome / Ethics
+  days:
+    - date: Tuesday, September 1
+      title: Welcome
+      required:
+      recommended:
+        - paper-title: The Security Mindset
+          paper-link: https://www.schneier.com/blog/archives/2008/03/the_security_mi_1.html
+          paper-author: Bruce Schneier
+          paper-published: 
+          paper-year: 2008
+        - paper-title: Security Engineering
+          paper-link: https://www.cl.cam.ac.uk/~rja14/book.html
+          paper-author: Ross Anderson
+          paper-published: Wiley
+          paper-year: 2001
+        - paper-title: How to Read a Paper
+          paper-link: https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf
+          paper-author: S. Keshav
+          paper-published: 
+          paper-year:
+        - paper-title: How to Give a Great Research Talk
+          paper-link: https://www.youtube.com/watch?v=sT_-owjKIbA
+          paper-author: Simon Payton Jones
+          paper-published: Microsoft Research
+          paper-year: 2016
+        - paper-title: How to Write a Great Research Paper
+          paper-link: https://www.youtube.com/watch?v=VK51E3gHENc
+          paper-author: Simon Payton Jones
+          paper-published: Microsoft Research
+          paper-year: 2016  
+    - date: Thursday, September 3
+      title: Ethics
+      required: 
+        - paper-title: "The Menlo Report: Ethical Principles"
+          paper-link: https://www.caida.org/publications/papers/2012/menlo_report_actual_formatted/menlo_report_actual_formatted.pdf
+          paper-author: 
+          paper-published: 
+          paper-year: 2012     
+        - paper-title: Measuring Security Practices and How They Impact Security
+          paper-link: https://arianamirian.com/docs/imc19.pdf
+          paper-author: Louis F. DeKoven, Audrey Randall, Ariana Mirian, Gautam Akiwate, Ansel Blume, Lawrence K. Saul, Aaron Schulman, Geoffrey M. Voelker, and Stefan Savage
+          paper-published: IMC 
+          paper-year: 2019 
+      recommended:     
+        - paper-title: "The Moral Character of Cryptographic Work"
+          paper-link: https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf
+          paper-author: 
+          paper-published: 
+          paper-year:
+- week: week2
+  weektitle: Network Security
+  days:
+    - date: Tuesday, September 8
+      title: TCP/IP
+      required:
+        - paper-title: "Off-Path TCP Exploits: Global Rate Limit Considered Dangerous"
+          paper-link: https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/cao
+          paper-author: Yue Cao, Zhiyun Qian, Zhongjie Wang, Tuan Dao, Srikanth V. Krishnamurthy, and Lisa M. Marvel
+          paper-published: Usenix Security
+          paper-year: 2016    
+      recommended:     
+        - paper-title: "Detecting Intentional Packet Drops on theInternet via TCP/IP Side Channels"
+          paper-link: https://www.censoredplanet.org/assets/Ensafi2014a.pdf
+          paper-author: Roya Ensafi, Jeffrey Knockel, Geoffrey Alexander, and Jedidiah R. Crandall
+          paper-published: PAM
+          paper-year: 2014
+        - paper-title: "Augur: Internet-wide detection of connectivity disruptions"
+          paper-link: https://www.censoredplanet.org/assets/Pearce2017a.pdf
+          paper-author: Paul Pearce, Roya Ensafi, Frank Li, Nick Feamster, and Vern Paxson
+          paper-published: Oakland
+          paper-year: 2017
+    - date: Thursday, September 10
+      title: DNS
+      required:
+        - paper-title: "A Longitudinal, End-to-End View of the DNSSEC Ecosystem"
+          paper-link: https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/cao
+          paper-author: Taejoong Chung, Roland van Rijswijk-Deij, Balakrishnan Chandrasekaran, David Choffnes, Dave Levin, Bruce M. Maggs, Alan Mislove, and Christo Wilson
+          paper-published: Usenix Security
+          paper-year: 2017    
+      recommended:     
+        - paper-title: "Satellite: Joint analysis of CDNs and network-level interference"
+          paper-link: https://www.censoredplanet.org/assets/Scott2016a.pdf
+          paper-author: Will Scott, Thomas Anderson, Tadayoshi Kohno, and Arvind Krishnamurthy
+          paper-published: Usenix ATC
+          paper-year: 2016
+        - paper-title: "Global Measurement of DNS Manipulation"
+          paper-link: https://www.censoredplanet.org/assets/Pearce2017b.pdf
+          paper-author: Paul Pearce, Ben Jones, Frank Li, Roya Ensafi, Nick Feamster, Nick Weaver, and Vern Paxson
+          paper-published: Usenix Security
+          paper-year: 2017
+        - paper-title: "DNS observatory: The big picture of the DNS"
+          paper-link: https://dl.acm.org/doi/abs/10.1145/3355369.3355566
+          paper-author: Pawel Foremski, Oliver Gasser, and Giovane CM Moura
+          paper-published: IMC
+          paper-year: 2019
+- week: week3
+  weektitle: Botnets and Denial of Service Attacks
+  days:
+    - date: Tuesday, September 22
+      title: Botnets
+      required:
+        - paper-title: "Understanding the Mirai Botnet"
+          paper-link: https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-antonakakis.pdf
+          paper-author: Manos Antonakakis, Tim April, Michael Bailey, Matt Bernhard, Elie Bursztein, Jaime Cochran, Zakir Durumeric et al
+          paper-published: Usenix Security
+          paper-year: 2017
+      recommended:     
+        - paper-title: "Your botnet is my botnet: analysis of a botnet takeover"
+          paper-link: https://dl.acm.org/doi/abs/10.1145/1653662.1653738
+          paper-author: Brett Stone-Gross, Marco Cova, Lorenzo Cavallaro, Bob Gilbert, Martin Szydlowski, Richard Kemmerer, Christopher Kruegel, and Giovanni Vigna
+          paper-published: CCS
+          paper-year: 2009
+    - date: Thursday, September 24
+      title: DoS
+      required:
+        - paper-title: "Amplification Hell: Revisiting Network Protocols for DDoS Abuse"
+          paper-link: https://christian-rossow.de/publications/amplification-ndss2014.pdf
+          paper-author: Christian Rossow
+          paper-published: NDSS
+          paper-year: 2014
+      recommended:     
+        - paper-title: "Identifying the Scan and Attack Infrastructures Behind Amplification DDoS Attacks"
+          paper-link: https://dl.acm.org/doi/10.1145/2976749.2978293
+          paper-author: Johannes Krupp, Michael Backes, and Christian Rossow
+          paper-published: CCS
+          paper-year: 2016
+        - paper-title: "Bro: A System for Detecting Network Intruders in Real-Time"
+          paper-link: https://www.usenix.org/legacy/publications/library/proceedings/sec98/full_papers/paxson/paxson.pdf
+          paper-author: Vern Paxson
+          paper-published: Usenix Security
+          paper-year: 1998
+- week: week4
+  weektitle: Online Freedom
+  days:
+    - date: Tuesday, September 15
+      title: Anonymity
+      required:
+        - paper-title: "Tor: The Second-Generation Onion Router"
+          paper-link: https://svn.torproject.org/svn/projects/design-paper/tor-design.pdf
+          paper-author: Paul Syverson, Roger Dingledine, and Nick Mathewson
+          paper-published: Usenix Security
+          paper-year: 2004
+        - paper-title: "SoK: Secure Messaging"
+          paper-link: http://www.cypherpunks.ca/~iang/pubs/secmessaging-oakland15.pdf
+          paper-author: Nik Unger, Sergej Dechand, Joseph Bonneau, Sascha Fahl, Henning Perl, Ian Goldberg, and Matthew Smith
+          paper-published: Oakland
+          paper-year: 2015
+      recommended:     
+        - paper-title: "Users Get Routed: Traffic Correlation on Tor by Realistic Adversaries"
+          paper-link: http://www.ohmygodel.com/publications/usersrouted-ccs13.pdf
+          paper-author: Aaron Johnson, Chris Wacek, Rob Jansen, Micah Sherr, and Paul Syverson
+          paper-published: CCS
+          paper-year: 2013
+        - paper-title: "Judge Confirms What Many Suspected: Feds Hired CMU to Break Tor"
+          paper-link: http://arstechnica.com/tech-policy/2016/02/judge-confirms-what-many-suspected-feds-hired-cmu-to-break-tor/
+          paper-author: Cyrus Farivar
+          paper-published: Ars Technica
+          paper-year: 2016
+    - date: Thursday, September 17
+      title: Censorship Resistance
+      required:
+        - paper-title: "Blocking-resistant Communication Through Domain Fronting"
+          paper-link: https://petsymposium.org/2015/papers/03_Fifield.pdf
+          paper-author: David Fifield, Chang Lan, Rod Hynes, Percy Wegmann, and Vern Paxson
+          paper-published: PETS
+          paper-year: 2015
+      recommended:     
+        - paper-title: "Conjure: Summoning Proxies from Unused Address Space"
+          paper-link: https://dl.acm.org/doi/abs/10.1145/3319535.3363218
+          paper-author: Sergey Frolov, Jack Wampler, Sze Chuen Tan, J. Alex Halderman, Nikita Borisov, and Eric Wustrow
+          paper-published: CCS
+          paper-year: 2019
+        - paper-title: "MassBrowser: Unblocking the Web for the Masses, By the Masses"
+          paper-link: https://web.cs.umass.edu/publication/docs/2018/UM-CS-2018-005.pdf
+          paper-author: Milad Nasr, Hadi Zolfaghari, and Amir Houmansadr
+          paper-published: NDSS
+          paper-year: 2020
+        - paper-title: "Geneva: Evolving censorship evasion strategies"
+          paper-link: https://dl.acm.org/doi/abs/10.1145/3319535.3363189
+          paper-author: Kevin Bock, George Hughey, Xiao Qiang, and Dave Levin
+          paper-published: CCS
+          paper-year: 2019       
+        - paper-title: "WireGuard: Next Generation Kernel Network Tunnel"
+          paper-link: https://pdfs.semanticscholar.org/de53/d55470addc0e0d52fd82c2f4bd8e4ca879c2.pdf
+          paper-author: Jason A. Donenfeld
+          paper-published: NDSS
+          paper-year: 2017
+- week: week5
+  weektitle: Human Factors
+  days:
+    - date: Tuesday, September 29
+      title: Authentication
+      required: 
+        - paper-title: "Detecting Credential Spearphishing Attacks in Enterprise Settings"
+          paper-link: https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-ho.pdf
+          paper-author: Grant Ho, Aashish Sharma, Mobin Javed, Vern Paxson, and David Wagner
+          paper-published: Usenix Security
+          paper-year: 2017
+      recommended:
+        - paper-title: "The Tangled Web of Password Reuse"
+          paper-link: https://nikita.ca/papers/password-reuse-ndss14.pdf
+          paper-author: Anupam Das, Joseph Bonneau, Matthew Caesar, Nikita Borisov, and XiaoFeng Wang
+          paper-published: NDSS
+          paper-year: 2014
+    - date: Thusday, October 1
+      title: Usable Security 
+      required: 
+        - paper-title: "A Comprehensive Quality Evaluation of Security and Privacy Advice on the Web"
+          paper-link: https://www.usenix.org/system/files/sec20-redmiles.pdf
+          paper-author: Elissa M. Redmiles, Noel Warford, Amritha Jayanti, Aravind Koneru, Sean Kross, Miraida Morales, Rock Stevens, and Michelle L. Mazurek
+          paper-published: Usenix Security
+          paper-year: 2020
+      recommended:
+        - paper-title: "How I Learned to be Secure: a Census-Representative Survey of Security Advice Sources and Behavior"
+          paper-link: http://users.umiacs.umd.edu/~mmazurek/papers/ccs2016-learned-secure.pdf
+          paper-author: Elissa M. Redmiles, Sean Kross, and Michelle L. Mazurek
+          paper-published: CCS
+          paper-year: 2016
+        - paper-title: "Alice in Warningland: A Large-Scale Field Study of Browser Security Warning Effectiveness"
+          paper-link: http://devd.me/papers/alice-in-warningland.pdf
+          paper-author:  Devdatta Akhawe and Adrienne Porter Felt
+          paper-published: Usenix Security
+          paper-year: 2013
+- week: week6
+  weektitle: Privacy
+  days:
+    - date: Tuesday, October 6
+      title: Privacy
+      required: 
+        - paper-title: "Watching You Watch: The Tracking Ecosystem of Over-the-Top TV Streaming Devices"
+          paper-link: https://tv-watches-you.princeton.edu/tv-tracking-acm-ccs19.pdf
+          paper-author: Hooman Mohajeri Moghaddam, Gunes Acar, Ben Burgess, Arunesh Mathur, Danny Yuxing Huang, Nick Feamster, Edward W. Felten, Prateek Mittal, and Arvind Narayanan
+          paper-published: CCS
+          paper-year: 2019
+      recommended:
+        - paper-title: "The Web Never Forgets: Persistent Tracking Mechanisms in the Wild"
+          paper-link: https://core.ac.uk/download/pdf/34609562.pdf
+          paper-author: Gunes Acar, Christian Eubank, Steven Englehardt, Marc Juarez, Arvind Narayanan, Claudia Diaz
+          paper-published: CCS
+          paper-year: 2014
+
+      
+    - date: Thursday, October 8
+      title: Pre-proposal presentations <span class="note">No written response required.</span>
+- week: week7
+  weektitle: Real World Crypto
+  days:
+    - date: Tuesday, October 13
+      title: Crypto
+      required:
+        - paper-title: "Mining Your Ps and Qs: Detection of Widespread Weak Keys in Network Devices"
+          paper-link: https://factorable.net/paper.html
+          paper-author: Nadia Heninger, Zakir Durumeric, Eric Wustrow, and J. Alex Halderman
+          paper-published: Usenix Security
+          paper-year: 2012
+        - paper-title: "Imperfect Forward Secrecy: How Diffie-Hellman Fails in Practice"
+          paper-link: https://weakdh.org/imperfect-forward-secrecy-ccs15.pdf
+          paper-author: David Adrian, Karthikeyan Bhargavan, Zakir Durumeric, Pierrick Gaudry, Matthew Green, J. Alex Halderman, Nadia Heninger et al
+          paper-published: CCS
+          paper-year: 2015
+      recommended:     
+        - paper-title: "DROWN: Breaking TLS using SSLv2"
+          paper-link: https://drownattack.com/drown-attack-paper.pdf
+          paper-author: Aviram, Nimrod, Sebastian Schinzel, Juraj Somorovsky, Nadia Heninger, Maik Dankel, Jens Steube, Luke Valenta et al
+          paper-published: Usenix Security
+          paper-year: 2016
+    - date: Thursday, October 15
+      title: Certificates
+      required:
+        - paper-title: "Tracking Certificate Misissuance in the Wild"
+          paper-link: https://ieeexplore.ieee.org/abstract/document/8418638
+          paper-author: Deepak Kumar, Zhengping Wang, Matthew Hyder, Joseph Dickinson, Gabrielle Beck, David Adrian, Joshua Mason, Zakir Durumeric, J. Alex Halderman, and Michael Bailey
+          paper-published: Oakland
+          paper-year: 2018
+      recommended: 
+        - paper-title: "Let’s Encrypt: An Automated Certificate Authority to Encrypt the Entire Web"
+          paper-link: https://jhalderm.com/pub/papers/letsencrypt-ccs19.pdf
+          paper-author: Josh Aas, Richard Barnes, Benton Case, Zakir Durumeric, Peter Eckersley, Alan Flores-López, J. Alex Halderman et al
+          paper-published: CCS
+          paper-year: 2019   
+        - paper-title: "Analysis of the HTTPS Certificate Ecosystem"
+          paper-link: https://jhalderm.com/pub/papers/https-imc13.pdf
+          paper-author: Zakir Durumeric, James Kasten, Michael Bailey, and J. Alex Halderman
+          paper-published: IMC
+          paper-year: 2013
+- week: week8
+  weektitle: Hardware Security
+  days:
+    - date: Tuesday, October 20
+      title: Hardware Attacks
+      required:
+        - paper-title: "Exploiting the DRAM rowhammer bug to gain kernel privileges"
+          paper-link: https://googleprojectzero.blogspot.com/2015/03/exploiting-dram-rowhammer-bug-to-gain.html
+          paper-author: Mark Seaborn and Thomas Dullien
+          paper-published: 
+          paper-year: 2015
+      recommended: 
+        - paper-title: "Drammer: Deterministic Rowhammer Attacks on Mobile Platforms"
+          paper-link: https://web.eecs.umich.edu/~genkin/teaching/fall2018/EECS598-12_files/drammer.pdf
+          paper-author: Victor Van Der Veen, Yanick Fratantonio, Martina Lindorfer, Daniel Gruss, Clémentine Maurice, Giovanni Vigna, Herbert Bos, Kaveh Razavi, and Cristiano Giuffrida
+          paper-published: CCS
+          paper-year: 2016
+        - paper-title: "Another Flip in the Wall of Rowhammer Defenses"
+          paper-link: https://ieeexplore.ieee.org/abstract/document/8418607
+          paper-author: Daniel Gruss, Moritz Lipp, Michael Schwarz, Daniel Genkin, Jonas Juffinger, Sioli O'Connell, Wolfgang Schoechl, and Yuval Yarom
+          paper-published: Oakland
+          paper-year: 2018
+    - date: Thursday, October 22
+      title: Side Channel
+      required:
+        - paper-title: "Spectre Attacks: Exploiting Speculative Execution"
+          paper-link: https://ieeexplore.ieee.org/abstract/document/8835233
+          paper-author: Kocher, Paul, Jann Horn, Anders Fogh, Daniel Genkin, Daniel Gruss, Werner Haas, Mike Hamburg et al
+          paper-published: Oakland
+          paper-year: 2019
+        - paper-title: "Meltdown: Reading Kernel Memory from User Space"
+          paper-link: https://meltdownattack.com/meltdown.pdf
+          paper-author: Moritz Lipp, Michael Schwarz, Daniel Gruss, Thomas Prescher, Werner Haas, Anders Fogh, Jann Horn et al
+          paper-published: Usenix Security
+          paper-year: 2018
+      recommended: 
+        - paper-title: "FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack"
+          paper-link: https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/yarom
+          paper-author: Yuval Yarom and Katrina Falkner
+          paper-published: Usenix Security
+          paper-year: 2014
+- week: week9
+  weektitle: Software Security
+  days:
+    - date: Thursday, November 3
+      title: Work on your projects <span class="note">No written response required</span>
+    - date: Tuesday, November 5
+      title: Malware
+      required:
+        - paper-title: "Investigating Commercial Pay-Per-Install  and the Distribution of Unwanted Software"
+          paper-link: https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_thomas.pdf
+          paper-author: Kurt Thomas, Juan A. Elices Crespo, Ryan Rasti, Jean-Michel Picod, Cait Phillips, Marc-André Decoste, Chris Sharp et al
+          paper-published: Usenix Security
+          paper-year: 2016
+      recommended: 
+        - paper-title: "Nazca: Detecting Malware Distribution in Large-Scale Networks"
+          paper-link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.438.2760&rep=rep1&type=pdf
+          paper-author: Luca Invernizzi, Stanislav Miskovic, Ruben Torres, Christopher Kruegel, Sabyasachi Saha, Giovanni Vigna, Sung-Ju Lee, and Marco Mellia
+          paper-published: NDSS
+          paper-year: 2014
+- week: week10
+  weektitle: Critical Systems
+  days:
+    - date: Tuesday, November 10
+      title: IOT Security 
+      required:
+        - paper-title: "IoT Inspector: Crowdsourcing Labeled Network Traffic from Smart Home Devices at Scale"
+          paper-link: https://dl.acm.org/doi/pdf/10.1145/3397333
+          paper-author: Danny Yuxing Huang, Noah Apthorpe, Frank Li, Gunes Acar, and Nick Feamster
+          paper-published: Interactive, Mobile, Wearable and Ubiquitous Technologies
+          paper-year: 2020
+      recommended: 
+        - paper-title: "All Things Considered: An Analysis of IoT Devices on Home Networks"
+          paper-link: https://www.usenix.org/system/files/sec19-kumar-deepak_0.pdf
+          paper-author: Deepak Kumar, Kelly Shen, Benton Case, Deepali Garg, Galina Alperovich, Dmitry Kuznetsov, Rajarshi Gupta, and Zakir Durumeric
+          paper-published: Usenix Security
+          paper-year: 2019  
+        - paper-title: "SoK: Security Evaluation of Home-Based IoT Deployment"
+          paper-link: https://ieeexplore.ieee.org/abstract/document/8835392
+          paper-author: Omar Alrawi, Chaz Lever, Manos Antonakakis, and Fabian Monrose
+          paper-published: Oakland
+          paper-year: 2019  
+    - date: Thursday, November 12
+      title: Automotive Security
+      required:
+        - paper-title: "Experimental Security Analysis of a Modern Automobile"
+          paper-link: http://www.autosec.org/pubs/cars-oakland2010.pdf
+          paper-author: Karl Koscher, Alexei Czeskis, Franziska Roesner, Shwetak Patel, Tadayoshi Kohno, Stephen Checkoway, Damon McCoy et al
+          paper-published: Oakland
+          paper-year: 2010
+      recommended: 
+        - paper-title: "Comprehensive Experimental Analyses of Automotive Attack Surfaces"
+          paper-link: http://www.autosec.org/pubs/cars-usenixsec2011.pdf
+          paper-author: Stephen Checkoway, Damon McCoy, Brian Kantor, Danny Anderson, Hovav Shacham, Stefan Savage, Karl Koscher, Alexei Czeskis, Franziska Roesner, and Tadayoshi Kohno
+          paper-published: Usenix Security
+          paper-year: 2011  
+- week: week10
+  weektitle: (Adverserial) Machine Learning
+  days:
+    - date: Tuesday, November 17
+      title: ML
+      required:
+        - paper-title: "Outside the Closed World: On Using Machine Learning For Network Intrusion Detection"
+          paper-link: https://www.computer.org/csdl/proceedings/sp/2010/6894/00/05504793.pdf
+          paper-author: Sommer, Robin, and Vern Paxson
+          paper-published: Oakland
+          paper-year: 2010
+      recommended: 
+        - paper-title: "Towards Evaluating the Robustness of Neural Networks"
+          paper-link: https://nicholas.carlini.com/papers/2017_sp_nnrobustattacks.pdf
+          paper-author: Nicholas Carlini, and David Wagner
+          paper-published: Oakland
+          paper-year: 2017
+        - paper-title: "TESSERACT: Eliminating Experimental Bias in Malware Classification across Space and Times"
+          paper-link: https://www.usenix.org/system/files/sec19-pendlebury.pdf
+          paper-author: Feargus Pendlebury, Fabio Pierazzi, Roberto Jordaney, Johannes Kinder, and Lorenzo Cavallaro
+          paper-published: Usenix Security
+          paper-year: 2019
+    - date: Tuesday, November 17
+      title: Adverserial ML
+      required:
+        - paper-title: "Explaining and Harnessing Adversarial Examples"
+          paper-link: https://arxiv.org/pdf/1412.6572.pdf
+          paper-author: Ian J. Goodfellow, Jonathon Shlens, and Christian Szegedy
+          paper-published: 
+          paper-year: 2014
+      recommended: 
+        - paper-title: "Intriguing properties of neural networks"
+          paper-link: https://arxiv.org/pdf/1312.6199.pdf
+          paper-author: Szegedy, Christian, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, and Rob Fergu
+          paper-published: 
+          paper-year: 2013
+- week: week10
+  weektitle: Thanksgiving Break
+  days:
+    - date: Tuesday, November 24
+      title: No Classes
+    - date: Thursday, November 26
+      title: No Classes
+- week: week11
+  weektitle: Election and Mobile Security
+  days:
+    - date: Tuesday, December 1
+      title: Election Security
+      required:
+        - paper-title: "Can Voters Detect Malicious Manipulation of Ballot Marking Devices?"
+          paper-link: https://mbernhard.com/papers/bmd-verifiability-sp20.pdf
+          paper-author: Matthew Bernhard, Allison McDonald, Henry Meng, Jensen Hwa, Nakul Bajaj, Kevin Chang, J. Alex Halderman
+          paper-published: Oakland
+          paper-year: 2020
+      recommended:
+        - paper-title: "Security Analysis of the Estonian Internet Voting System"
+          paper-link: https://jhalderm.com/pub/papers/ivoting-ccs14.pdf
+          paper-author: Drew Springall, Travis Finkenauer, Zakir Durumeric, Jason Kitcat, Harri Hursti, Margaret MacAlpine, and J. Alex Halderman
+          paper-published: CCS
+          paper-year: 2014
+    - date: Tuesday, December 3
+      title: Mobile Security
+      required: 
+        - paper-title: "An Analysis of Pre-installed Android Software"
+          paper-link: https://ieeexplore.ieee.org/abstract/document/9152633
+          paper-author: Julien Gamba, Mohammed Rashed, Abbas Razaghpanah, Juan Tapiador, and Narseo Vallina-Rodriguez
+          paper-published: Oakland
+          paper-year: 2020
+        - paper-title: "Who's Calling? Characterizing Robocalls through Audio and Metadata Analysis"
+          paper-link: https://www.usenix.org/system/files/sec20-prasad.pdf
+          paper-author: Sathvik Prasad, Elijah Bouma-Sims, Athishay Kiran Mylappan, and Bradley Reaves, North
+          paper-published: Usenix Security
+          paper-year: 2020
+      recommended:
+        - paper-title: "50 Ways to Leak Your Data: An Exploration of Apps' Circumvention of the Android Permissions System"
+          paper-link: https://www.usenix.org/system/files/sec19-reardon.pdf
+          paper-author: Joel Reardon, Álvaro Feal, Primal Wijesekera, Amit Elazari Bar On, Narseo Vallina-Rodriguez, and Serge Egelman
+          paper-published: Usenix Security
+          paper-year: 2019
+- week: week11
+  weektitle: Final project presentations
+  days:
+    - date: Tuesday, December 8
+      title: Work on your projects 
+    - date: Thursday, November 10
+      title: Final Project Presentations

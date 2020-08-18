@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html>
-    <!-- (c) 2015 J. Alex Halderman -->
-    <head>
-        <title>EECS 588: Computer and Network Security</title>
-        <meta charset="utf-8">
-        <link href="static/style.css" rel="stylesheet">
-    </head>
+      <head>
+    <title>EECS 588 - Reading List</title>
+    <meta charset="utf-8">
+    <link href="static/style.css" rel="stylesheet">
+  </head>
 
-    <body>
-        <div id="top">
-            <h1><a href="./">Computer &amp; Network Security</a></h1>
-            <h2>EECS 588 &ndash; Winter 2017</h2>
-            <p><a class="current" href="./">Overview</a>
-            <a href="schedule.html">Schedule</a>
-            <a href="readings.html">Readings</a>
-            <a href="labs.html">Labs</a>
-            <a href="project.html" style="border-right: 0;">Course&nbsp;Project</a></p>
-        </div>
-        <div id="main">
-            <style>
-
+  <body>
+    <div id="top">
+      <h1><a href="./">Computer &amp; Network Security</a></h1>
+      <h2>EECS 588 &ndash; Fall 2020</h2>
+      <p><a href="./">Overview</a><a class="current" href="readings.html">Readings</a><a href="project.html" style="border-right: 0;">Course&nbsp;Project</a></p>
+    </div>
+    <div id="main">
+      <style>
 ul.resp {
   margin-bottom: 0;
 }
@@ -168,1302 +162,966 @@ div.reading ul li a {
   </ol></li>
 </ul>
 <p>Your most important task is to demonstrate that you've <b>read the paper</b> and <b>thought carefully</b> about the topic.</p>
-<p>Paper responses are due before the start of class via the <a href="https://eecs588.eecs.umich.edu/hotcrp"><b>online submission system</b></a>.  Before you upload your work, the system will ask you to assess earlier responses written by your peers.  We'll combine peer feedback and our own evaluation when determining your grade.</p>
+<p>Paper responses are due before the start of class via the <b>online submission system</b></a>.  Before you upload your work, the system will ask you to assess earlier responses written by your peers.  We'll combine peer feedback and our own evaluation when determining your grade.</p>
 
 <a name="list"></a>
 <h3>Reading List</h3>
 
-<p>This list is subject to change.  Updates will be posted by the end
-of the day on the Friday before each lecture.</p>
-
-<p><a href="https://en.wikipedia.org/wiki/Academic_journal_publishing_reform">Unfortunately</a>,
-some articles require paid subscriptions to journals and digital
-libraries.  You can access these for free when connecting on
-campus. For off-campus access, try the
-<a href="https://www.itcom.itd.umich.edu/vpn/">U-M VPN</a> or the
-<a href="https://www.lib.umich.edu/mlibrary-labs/proxy-server-bookmarklet">MLibrary
-Proxy Server Bookmarklet</a>.</p>
+<p> <b>This list is subject to change.  Updates will be posted by August 15, 2020.</p>
 
 <div class="reading">
+  
+  <a name=""></a>
+  <h2>Welcome / Ethics</h2>
 
-  <a name="week1"></a>
-  <h2>Welcome</h2>
-  <div>
-    <h3>
-      Tuesday, January 3
-    </h3>
-    <span class="note">No Class.</span>
-  </div>
-  <div>
-    <h3>
-      Thursday, January 5
-    </h3>
+    
+      <div>
+      <h3>Tuesday, September 1 &mdash; Welcome</h3>
+    <ul>
+      
+    </ul> 
+    
     <ul class="opt">
-      <li>
-        <a href="./static/588-w17-intro.pdf">Introduction</a>.
-        (Slides from lecture.)
-      <!-- </li>
-      <li>
-        <a href="./static/588-w16-crypto.pdf">Essential Cryptography</a>.
-        (Slides from lecture.)
-      </li> -->
+      
       <li>
         <a href="https://www.schneier.com/blog/archives/2008/03/the_security_mi_1.html">The Security Mindset</a>.
+        
         Bruce Schneier.
-        2008.
+        
+          2008.
       </li>
+      
       <li>
         <a href="https://www.cl.cam.ac.uk/~rja14/book.html">Security Engineering</a>.
+        
         Ross Anderson.
-        Wiley, 2001.
+        
+        Wiley,  2001.
       </li>
+      
       <li>
-        <a href="http://cacr.uwaterloo.ca/hac/">Handbook of Applied Cryptography</a>.
-        Menezes, van Oorschot, and Vanstone.
-        CRC Press, 1996.
+        <a href="https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf">How to Read a Paper</a>.
+        
+        S. Keshav.
+        
+         
       </li>
-    </ul>
-  </div>
-  
-  <a name="week2"></a>
-  <h2>Internet of Things / Cyber-Physical Systems (no bidding; instructors presenting)</h2>
-  <div>
-    <h3>
-      Tuesday, January 10
-	  &mdash; Attacks
-    </h3>
-    <ul>
+      
       <li>
-        <a href="https://web.eecs.umich.edu/~earlence/assets/papers/smartthings_sp16.pdf">Security Analysis of Emerging Smart Home Applications</a>.
-        Fernandes, Jung, Prakash.
-        Oakland 2016.
+        <a href="https://www.youtube.com/watch?v=sT_-owjKIbA">How to Give a Great Research Talk</a>.
+        
+        Simon Payton Jones.
+        
+        Microsoft Research,  2016.
       </li>
+      
       <li>
-        <a href="http://icitech.org/wp-content/uploads/2016/12/ICIT-Brief-Rise-of-the-Machines.pdf">Mirai</a>.
+        <a href="https://www.youtube.com/watch?v=VK51E3gHENc">How to Write a Great Research Paper</a>.
+        
+        Simon Payton Jones.
+        
+        Microsoft Research,  2016.
       </li>
-	  <li>
-        <a href="https://ics.sans.org/media/E-ISAC_SANS_Ukraine_DUC_5.pdf">Ukraine Power Grid Attack</a>.
-      </li>
-    </ul>
-    <ul class="opt">
-	  <li>
-        <a href="https://www.win.tue.nl/hashclash/rogue-ca/">Smart meter security: a survey</a>.
-        Anderson and Fuloria.
-        JSAC&nbsp;2011.
-      </li>
-	  <li>
-        <a href="">Hey, My Malware Knows Physics! Attacking PLCs with Physical Model Aware Rootkit</a>.
-        Garcia, Brasser, Cintuglu, Sadeghi, Mohammed, and Zonouz.
-        NDSS&nbsp;2017.
-      </li>
-    </ul>
-  </div>
-  <div>
-    <h3>
-      Thursday, January 12
-	  &mdash; Defenses
-    </h3>
-    <ul>
-      <li>
-        <a href="https://web.eecs.umich.edu/~earlence/assets/papers/flowfence_sec16.pdf">FlowFence: Practical Data Protection for Emerging IoT Applications</a>.
-        Fernandes, Paupore, Rahmati, Simionato, Conti, and Prakash.
-        USENIX&nbsp;Security&nbsp;2016
-      </li>
-	  <li>
-        <a href="https://www.internetsociety.org/sites/default/files/blogs-media/who-control-your-control-system-device-fingerprinting-cyber-physical-systems.pdf">Who’s in Control of Your Control System? Device Fingerprinting for Cyber-Physical Systems</a>.
-        Formby, Srinivasan, Leonard, Rogers, and Beyah.
-        NDSS&nbsp;2016
-      </li>
-     
-    </ul>
-    <ul class="opt">
-      <li>
-        <a href="https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/caselli">Specification Mining for Intrusion Detection in Networked Control Systems</a>.
-        Caselli, Zambon, Amann, Sommer, and Kargl.
-        USENIX Security 2016.
-      </li>
-	  
-	  <li>
-        <a href="https://www.microsoft.com/en-us/research/project/homeos-enabling-smarter-homes-for-everyone/">HomeOS Project</a>.
-        Microsoft Research.
-      </li>
-	  
-	  <li>
-        <a href="http://locore.cs.washington.edu/papers/pernsteiner-neutrons.pdf">Investigating Safety of a Radiotherapy Machine Using System Models with Pluggable Checkers</a>.
-        Pernsteiner, Loncaric, Torlak, Tatlock, Wang, Ernst, and Jacky.
-		CAV 2016.
-      </li>
-	  
-	  <li>
-        <a href="http://iot.stanford.edu/pubs/rng-sensys16.pdf">Robust, low-cost, auditable random number generation for embedded system security</a>.
-		Lampert, Wahby, Leonard, Levis.
-		SenSys 2016.
-      </li>
-	  
-    </ul>
-  </div>
-  
-  <a name="week3"></a>
-  <h2>How Crypto Fails / Real World Crypto</h2>
-  <div>
-    <h3>
-      Tuesday, January 17
-    </h3>
-    <ul>
-      <li>
-        <a href="https://eprint.iacr.org/2004/357">MD5 To Be Considered Harmful Someday</a>.
-        Dan Kaminsky.
-        2004.
-      </li>
-      <li>
-        <a href="https://www.usenix.org/event/sec02/full_papers/gutmann/gutmann.pdf">Lessons Learned in Implementing and Deploying Crypto Software</a>.
-        Peter Gutmann.
-        Usenix&nbsp;Security&nbsp;2002.
-      </li>
-    </ul>
-    <ul class="opt">
-	  <li>
-        <a href="https://www.win.tue.nl/hashclash/rogue-ca/">MD5 Considered Harmful Today</a>.
-        Sotirov, Stevens, Appelbaum, Lenstra, Molnar, Osvik, and Weger.
-        CCC&nbsp;2008.
-      </li>
-      <li>
-        <a href="https://archive.is/fo1BG">TLS and SSL</a>.
-        D.&nbsp;Koren, et&nbsp;al.
-        Secure Networking Protocols Portal, 2009.
-      </li>
-      <li>
-        <a href="https://tools.ietf.org/html/rfc5246">TLS v1.2</a>.
-        Dierks and Rescorla.
-        RFC 5246, 2008.
-      </li>
-      <li>
-        <a href="https://letsencrypt.org/">Let's Encrypt</a>.
-        (the CA Alex is building).
-      </li>
-      <li>
-        <a href="http://www.infosec.sdu.edu.cn/uploadfile/papers/How%20to%20Break%20MD5%20and%20Other%20Hash%20Functions.pdf">How to Break MD5 and Other Hash Functions</a>.
-        Wang and Yu.
-        Eurocrypt 2005.
-      </li>
-      <li>
-        <a href="http://deweger.xs4all.nl/papers/[41]StSoApLeMoOsdW-RogueCA-Crypto[2009].pdf">Short Chosen-Prefix Collisions for MD5 and the Creation of a Rogue CA Certificate</a>.
-        Stevens, Sotirov, Appelbaum, Lenstra, Molnar, Osvik, and Weger.
-        Crypto 2009.
-      </li>
-      <li>
-        <a href="https://documents.epfl.ch/users/l/le/lenstra/public/papers/lat.pdf">Chosen-prefix collisions for MD5 and applications</a>.
-        Stevens, Lenstra, and de Weger.
-        Int. J. Applied Cryptography, 2(4), 2012.
-      </li>
-      <li>
-        <a href="https://sites.google.com/site/itstheshappening/">Freestart collisions for SHA-1</a>.
-        October 2015.
-      </li>
-      <li>
-        <a href="http://www.mitls.org/downloads/transcript-collisions.pdf">Transcript Collision Attacks: Breaking Authentication in TLS, IKE, and SSH</a>.
-        Bhargavan and Leurent.
-        NDSS 2016.
-      </li>
-    </ul>
-  </div>
-  <div>
-    <h3>
-      Thursday, January 19
-    </h3>
-    <ul>
-      <li>
-        <a href="http://www.moserware.com/2009/06/first-few-milliseconds-of-https.html">The First Few Milliseconds of an HTTPS Connection</a>.
-        Jeff Moser.
-        2009.
-      </li>
-      <li>
-        <a href="https://factorable.net/paper.html">Mining Your Ps and Qs: Detection of Widespread Weak Keys in Network Devices</a>.
-        Heninger, Durumeric, Wustrow, and Halderman.
-        Usenix&nbsp;Security&nbsp;2012.
-      </li>
-    </ul>
-    <ul class="opt">
-      <li>
-        <a href="https://www.cl.cam.ac.uk/~rja14/Papers/wcf.pdf">Why Cryptosystems Fail</a>.
-        Ross Anderson.
-        Commun. ACM, 37(11), Nov.&nbsp;1994.
-      </li>
-	  <li>
-        <a href="https://weakdh.org/imperfect-forward-secrecy-ccs15.pdf">Imperfect Forward Secrecy: How Diffie-Hellman Fails in Practice</a>.
-        Adrian, Bhargavan, Durumeric, Gaudry, Green, Halderman, Heninger, Springall, Thom&eacute;, Valenta, VanderSloot, Wustrow, Zanella-B&eacute;guelin, and Zimmermann.
-        CCS&nbsp;2015.
-      </li>
-      <li>
-        <a href="https://www.cl.cam.ac.uk/~rja14/Papers/econ.pdf">Why Information Security is Hard: An Economic Perspective</a>.
-        Ross Anderson.
-        ACSAC&nbsp;2001.
-      </li>
-      <li>
-        <a href="https://zmap.io/paper.html">ZMap: Fast Internet-Wide Scanning and its Security Applications</a>.
-        Durumeric, Wustrow, and Halderman.
-        Usenix&nbsp;Security&nbsp;2013.
-      </li>
-      <li>
-        <a href="https://censys.io">Censys: A Search Engine Backed by Internet-Wide Scanning</a>.
-        Durumeric, Adrian, Mirian, Bailey, and Halderman.
-        CCS&nbsp;2015.
-      </li>
-      <li>
-        <a href="https://jhalderm.com/pub/papers/https-imc13.pdf">Analysis of the HTTPS Ecosystem</a>.
-        Durumeric, Kasten, Bailey, and Halderman.
-        IMC&nbsp;2013.
-      </li>
-      <li>
-        <a href="http://portal.acm.org/citation.cfm?id=1315304">Cryptanalysis of the Windows Random Number Generator</a>.
-        Dorrendorf, Gutterman, and Pinkas.
-        CCS&nbsp;2007.
-      </li>
-      <li>
-        <a href="http://www.ieee-security.org/TC/SP2013/papers/4977a511.pdf">SSL and HTTPS: Revisiting Past Challenges and Evaluating Certificate Trust Model Enhancements</a>.
-        Clark and van Oorschot.
-        Oakland&nbsp;2013.
-      </li>
-    </ul>
-  </div>
-  <a name="week4"></a>
-  <h2>Binary Exploitation</h2>
-  <div>
-    <h3>
-      Tuesday, January 24
-	  &mdash; Basic Exploitation
-    </h3>
-	<ul>
-      <li>
-        <a href="./static/stack_smashing.pdf">Smashing the Stack for Fun and Profit</a>.
-        Aleph One.
-        Phrack 49(14),  Nov.&nbsp;1996.
-      </li>
-      <li>
-        <a href="http://static.usenix.org/publications/library/proceedings/sec98/full_papers/cowan/cowan.pdf">StackGuard: Automatic Adaptive Detection and Prevention of Buffer-Overflow Attacks</a>.
-        Cowan, Pu, Maier, Hinton, Walpole, Bakke, Beattie, Grier, Wagle, and Zhang.
-        Usenix&nbsp;Security&nbsp;1998.
-      </li>
-    </ul>
-    <ul class="opt">
-      <li>
-        <a href="http://ieeexplore.ieee.org.proxy.lib.umich.edu/xpls/abs_all.jsp?arnumber=1324594">Beyond Stack Smashing: Recent Advances in Exploiting Buffer Overruns</a>.
-        Pincus and Baker.
-        IEEE Security and Privacy, July&ndash;Aug.&nbsp;2004.
-      </li>
-      <li>
-        <a href="https://portal.acm.org/citation.cfm?id=1030124&amp;dl=ACM&amp;coll=">On the Effectiveness of ASLR</a>.
-        Shacham, Page, Pfaff, Goh, Modadugu, and Boneh.
-        CCS&nbsp;2004.
-      </li>
-      <li>
-        <a href="http://www.cs.jhu.edu/~sam/ccs243-mason.pdf">English Shellcode</a>.
-        Mason, Small, Monrose, and MacManus.
-        CCS&nbsp;2009.
-      </li>
-      <li>
-        <a href="http://security.ece.cmu.edu/aeg/aeg-current.pdf">AEG: Automatic Exploit Generation</a>.
-        Avgerinos, Cha, Hao, and Brumley.
-        NDSS&nbsp;2011.
-      </li>
-    </ul>
+      
+    </ul> 
+
     
   </div>
-  <div>
-    <h3>
-      Thursday, January 26
-	  &mdash; Modern Attacks
-    </h3>
+    
+      <div>
+      <h3>Thursday, September 3 &mdash; Ethics</h3>
     <ul>
+      
       <li>
-        <a href="http://www.cs.berkeley.edu/~dawnsong/papers/Oakland13-SoK-CR.pdf">Eternal War in Memory</a>.
-        Szekeres, Payer, Wei, and Song.
-        Oakland&nbsp;2013.
+        <a href="https://www.caida.org/publications/papers/2012/menlo_report_actual_formatted/menlo_report_actual_formatted.pdf">The Menlo Report: Ethical Principles</a>.
+        
+        
+         2012.
       </li>
+      
       <li>
-        <a href="http://www-cse.ucsd.edu/~hovav/papers/s07.html">The Geometry of Innocent Flesh on the Bone: Return-into-libc without Function Calls (on the x86)</a>.
-        Hovav Shacham.
-        CCS&nbsp;2007.
+        <a href="https://arianamirian.com/docs/imc19.pdf">Measuring Security Practices and How They Impact Security</a>.
+        
+        Louis F. DeKoven, Audrey Randall, Ariana Mirian, Gautam Akiwate, Ansel Blume, Lawrence K. Saul, Aaron Schulman, Geoffrey M. Voelker, and Stefan Savage.
+        
+        IMC, 2019.
       </li>
-    </ul>
+      
+    </ul> 
+    
     <ul class="opt">
+      
       <li>
-        <a href="http://www.vupen.com/blog/">VUPEN Vulnerability Research Blog</a>.
-        (Details of advanced modern exploitation.)
+        <a href="https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf">The Moral Character of Cryptographic Work</a>.
+        
+        
+         
       </li>
-      <li>
-        <a href="https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/finifter">An Empirical Study of Vulnerability Rewards Programs</a>.
-        Finifter, Akhawe, and Wagner.
-        Usenix&nbsp;Security&nbsp;2013.
-      </li>
-      <li>
-        <a href="http://research.microsoft.com/apps/pubs/default.aspx?id=76528">Nozzle: A Defense Against Heap-spraying Code Injection Attacks</a>.
-        Ratanaworabhan, Livshits, and Zorn.
-        Usenix&nbsp;Security&nbsp;2009.
-      </li>
-    </ul>
-  </div>
-  <a name="week5"></a>
-  <h2>Malicious Software</h2>
-  <div>
-    <h3>
-      Tuesday, January 31
-	  &mdash; Malware
-    </h3>
-    <ul>
-      <li>
-        <a href="http://portal.acm.org/citation.cfm?id=358210">Reflections on Trusting Trust</a>.
-        Ken Thompson.
-        Communications of the ACM, 27(8), Aug. 1984.
-      </li>
-      <li>
-        <a href="http://www.internetsociety.org/sites/default/files/11_1_1.pdf">Nazca: Detecting Malware Distribution in Large-Scale Networks</a>.
-        Invernizzi, Miskovic, Torres, Saha, Lee, Mellia, Kruegel, and Vigna.
-        NDSS&nbsp;2014.
-      </li>
-    </ul>
-    <ul class="opt">
-      <li>
-        <a href="http://bitblaze.cs.berkeley.edu/papers/sig-gen-oakland06.pdf">Towards Automatic Generation of Vulnerability-Based Signatures</a>.
-        Brumley, Newsome, Song, Wang, and Jha.
-        Oakland&nbsp;2006.
-      </li>
-      <li>
-        <a href="https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/Zhang">Control Flow Integrity for COTS Binaries</a>.
-        Zhang and Sekar.
-        Usenix&nbsp;Security&nbsp;2013.
-      </li>
-      <li>
-        <a href="http://www.cs.ucsd.edu/~savage/papers/IEEESP03.pdf">Inside the Slammer Worm</a>.
-        Moore, Paxson, Savage, Shannon, Staniford, and Weaver.
-        IEEE Security and Privacy, July/August 2003.
-      </li>
-      <li>
-        <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1236233">The Morris Worm: A Fifteen-Year Perspective</a>.
-        Orman.
-        IEEE Security and Privacy, Sept./Oct.&nbsp;2003.
-      </li>
-      <li>
-        <a href="http://www.ieee-security.org/TC/SP2012/papers/4681a065.pdf">Prudent Practices for Designing Malware Experiments: Status Quo and Outlook</a>.
-        Rossow, Dietrich, Grier, Kreibich, Paxson, Pohlmann, Bos, and van Steen.
-        Oakland&nbsp;2012.
-      </li>
-    </ul>
-  </div>
-  <div>
-    <h3>
-      Thursday, February 2
-	  &mdash; Isolation
-    </h3>
-    <ul>
-      <li>
-        <a href="https://cseweb.ucsd.edu/~hovav/dist/cloudsec.pdf">Hey, You, Get Off of My Cloud: Exploring Information Leakage in Third-Party Compute Clouds</a>.
-        Ristenpart Tromer, Shacham, and Savage.
-        CCS&nbsp;2009.
-      </li>
-      <li>
-        <a href="http://www.adambarth.com/papers/2008/barth-jackson-reis.pdf">The Security Architecture of the Chromium Browser</a>.
-        Barth, Jackson, Reis, and The Google Chrome Team.
-        2008.
-      </li>
-    </ul>
-    <ul class="opt">
-      <li>
-        <a href="https://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en/us/pubs/archive/34913.pdf">Native Client: A Sandbox for Portable, Untrusted x86 Native Code</a>.
-        Yee, Sehr, Dardyk, Chen, Muth, Ormandy, Okasaka, Narula, and Fullagar.
-        Oakland&nbsp;2009.
-      </li>
-      <li>
-        <a href="https://www.cs.unc.edu/~reiter/papers/2012/CCS.pdf">Cross-VM Side Channels and Their Use to Extract Private Keys</a>.
-        Zhang, Juels, Reiter, and Ristenpart.
-        CCS&nbsp;2012.
-      </li>
-      <li>
-        <a href="https://www.usenix.org/legacy/events/sec10/tech/full_papers/Watson.pdf">Capsicum: Practical Capabilities for UNIX</a>.
-        Watson, Anderson, Laurie, and Kennaway.
-        Usenix&nbsp;Security&nbsp;2010.
-      </li>
-      <li>
-        <a href="https://research.microsoft.com/apps/pubs/?id=72878">Leveraging Legacy Code to Deploy Desktop Applications on the Web</a>.
-        Douceur, Elson, Howell, and Lorch.
-        OSDI&nbsp;2008.
-      </li>
-      <li>
-        <a href="https://www.usenix.org/publications/library/proceedings/osdi96/necula.html">Safe Kernel Extensions Without Run-Time Checking</a>.
-        Necula and Lee.
-        OSDI&nbsp;1996.
-      </li>
-      <li>
-        <a href="http://www.comlab.ox.ac.uk/files/1873/RR-08-11.PDF">The Ten-Page Introduction to Trusted Computing</a>.
-        Martin.
-        2008.
-      </li>
-    </ul>
-  </div>
-  
+      
+    </ul> 
 
-  <a name="week6"></a>
-  <h2>Web Security</h2>
-  <div>
-    <h3>
-      Tuesday, February 7
-      &mdash; Web Attacks
-    </h3>
-    <ul>
-      <li>
-        <a href="https://crypto.stanford.edu/websec/csrf/csrf.pdf">Robust Defenses for Cross-Site Request Forgery</a>.
-        Barth, Jackson, and Mitchell.
-        CSS&nbsp;2008.
-      </li>
-      <li>
-        <a href="http://www.cs.uic.edu/~venkat/research/papers/blueprint-oakland09.pdf">Blueprint: Robust Prevention of Cross-site Scripting Attacks for Existing Browsers</a>.
-        Louw and Venkatakrishnan.
-        Oakland&nbsp;2009.
-      </li>
-    </ul>
-    <ul class="opt">
-      <li>
-        <a href="https://www.usenix.org/system/files/conference/usenixsecurity12/sec12-final225.pdf">Enemy of the State: A State-Aware Black-Box Web Vulnerability Scanner</a>.
-        Doupe, Cavedon, Kruegel, and Vigna.
-        Usenix&nbsp;Security&nbsp;2012.
-      </li>
-      <li>
-        <a href="https://www.owasp.org/index.php/Cheat_Sheets">OWASP Cheat Sheet Series</a>.
-        Open Web Application Security Project.
-      </li>
-      <li>
-        <a href="https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-lekies.pdf">The Unexpected Dangers of Dynamic JavaScript</a>.
-        Lekies, Stock, Wentzel, and Johns.
-        Usenix&nbsp;Security&nbsp;2015.
-      </li>
-      <li>
-        <a href="http://trouge.net/gp/papers/ndss2014.pdf">Toward Black-Box Detection of Logic Flaws in Web Applications</a>.
-        Pellegrino and Balzarotti.
-        NDSS&nbsp;2014.
-      </li>
-    </ul>
+    
   </div>
-  <div>
-    <h3>
-      Thursday, February 9
-      &mdash; Web Isolation
-    </h3>
-    <ul>
-      <li>
-        <a href="https://crypto.stanford.edu/websec/frames/post-message.pdf">Securing Browser Frame Communication</a>.
-        Barth, Jackson, and Mitchell.
-        Usenix&nbsp;Security&nbsp;2008.
-      </li>
-      <li>
-        <a href="http://research.sidstamm.com/papers/csp-www2010.pdf">Reining in the Web with Content Security Policy</a>.
-        Stamm, Sterne, and Markham.
-        WWW 2010.
-      </li>
-    </ul>
-    <ul class="opt">
-      <li>
-        <a href="https://research.microsoft.com/~helenw/papers/sosp07MashupOS.pdf">Protection and Communication Abstractions for Web Browsers in MashupOS</a>.
-        Wang, Fan, Howell, and Jackson.
-        SOSP&nbsp;2007.
-      </li>
-      <li>
-        <a href="https://crypto.stanford.edu/websec/origins/fgo.pdf">Beware of Finer-Grained Origins</a>.
-        Jackson and Barth.
-        Web 2.0 Security and Privacy 2008.
-      </li>
-      <li>
-        <a href="https://crypto.stanford.edu/dns/dns-rebinding.pdf">Protecting Browsers from DNS Rebinding Attacks</a>.
-        Jackson, Barth, Bortz, Shao, And Boneh.
-        CCS&nbsp;2007.
-      </li>
-      <li>
-        <a href="https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/johns">Eradicating DNS Rebinding with the Extended Same-Origin Policy</a>.
-        Johns, Lekies, and Stock.
-        Usenix&nbsp;Security&nbsp;2013.
-      </li>
-      <li>
-        <a href="https://www.w3.org/TR/2012/CR-CSP-20121115/">Content Security Policy 1.0</a>.
-        Sterne and Barth.
-        W3C Candidate Recommendation, 2012.
-      </li>
-    </ul>
-  </div>
+    
+
   
-  
-  <a name="week7"></a>
-  <h2>Mobile Security</h2>
-  <div>
-    <h3>
-      Tuesday, February 14
-      &mdash; Mobile Security
-    </h3>
-    <ul>
-		<li>
-        <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/OAuthDemystified.pdf">OAuth Demystified for Mobile Application Developers</a>.
-        Chen, Pei, Chen, Tian, Kotcher, Tague.
-        CCS&nbsp;2014.
-      </li>
-      
-      <li>
-        <a href="http://www.franziroesner.com/pdf/layercake-usenixsec2013.pdf">Securing Embedded User Interfaces: Android and Beyond</a>.
-        Roesner and Kohno.
-        Usenix&nbsp;Security&nbsp;2013.
-      </li>
-    </ul>
-    <ul class="opt">
-	  <li>
-        <a href="http://www.csc.ncsu.edu/faculty/jiang/pubs/OAKLAND12.pdf">Dissecting Android Malware: Characterization and Evolution</a>.
-        Zhou and Jiang.
-        Oakland&nbsp;2012.
-      </li>
-      <li>
-        <a href="https://research.microsoft.com/~helenw/papers/smartphone.pdf">Smart-Phone Attacks and Defenses</a>.
-        Guo, Wang, and Zhu.
-        HotNets&nbsp;2004.
-      </li>
-      <li>
-        <a href="">User-Driven Access Control: Rethinking Permission Granting in Modern Operating Systems</a>.
-        Roesner, Kohno, Moshchuk, Parno, Wang, and Cowan.
-        Oakland&nbsp;2012.
-      </li>
-      <li>
-        <a href="https://www.cs.berkeley.edu/~dawnsong/papers/2011%20Android%20permissions%20demystified.pdf">Android Permissions Demystified</a>.
-        Felt, Chin, Hanna, Song, and Wagner.
-        CCS&nbsp;2011.
-      </li>
-      <li>
-        <a href="http://cups.cs.cmu.edu/soups/2012/proceedings/a3_Felt.pdf">Android Permissions: User Attention, Comprehension, and Behavior</a>.
-        Felt, Ha, Egelman, Haney, Chin, and Wagner.
-        SOUPS&nbsp;2012.
-      </li>
-      <li>
-        <a href="https://www.eecs.umich.edu/~zhiyunq/pub/ndss12_rnc_fingerprinting.pdf">You Can Run, but You Can&rsquo;t Hide: Exposing Network Location for Targeted DoS Attacks in Cellular Networks</a>.
-        Qian, Wang, Xu, Mao, Zhang, and Wang.
-        NDSS&nbsp;2012.
-      </li>
-    </ul>
-  </div>
-  <div>
-    <h3>
-      Thursday, February 16
-      &mdash; Pre-proposal presentations
-      <span class="note">No written response required for today.</span>
-    </h3>
-  </div>
-  
-  
-  <a name="week8"></a>
-  <h2>Human Factors</h2>
-  <div>
-    <h3>
-      Tuesday, February 21
-      &mdash; Passwords
-    </h3>
-    <ul>
-      <li>
-        <a href="https://www.ece.cmu.edu/~lbauer/papers/2016/usenixsec2016-neural-passwords.pdf">Fast, Lean, and Accurate:Modeling Password Guessability Using Neural Networks</a>.
-        Melicher et al.
-        USENIX Security&nbsp;2016.
-      </li>
-	  <li>
-        <a href="https://www.andrew.cmu.edu/user/nicolasc/publications/KSKMBCCE-CHI11.pdf">Of Passwords and People: Measuring the Effect of Password-Composition Policies</a>.
-        Komanduri et al.
-        CHI&nbsp;2011.
-      </li>
-    </ul>
-    <ul class="opt">
-	  <li>
-        <a href="https://www.usenix.org/system/files/conference/woot14/woot14-bursztein.pdf">The End is Nigh: Generic Solving of Text-based CAPTCHAs</a>.
-        Bursztein, Aigrain, Moscicki, and Mitchell.
-        WOOT&nbsp;2014.
-      </li>
-      <li>
-        <a href="https://web.engr.illinois.edu/~das17/paper/NDSS2014.pdf">The Tangled Web of Password Reuse</a>.
-        Das, Bonneau, Caesar, Borisov, and Wang.
-        NDSS&nbsp;2014.
-      </li>
-      <li>
-        <a href="http://www.cs.cmu.edu/~biglou/reCAPTCHA_Science.pdf">reCAPTCHA: Human-Based Character Recognition via Web Security Measures</a>.
-        von Ahn, Maurer, McMillen, Abraham, and Blum.
-        Science, September 2008.
-      </li>
-      <li>
-        <a href="http://theory.stanford.edu/~jcm/papers/captcha-study-oakland10.pdf">How Good are Humans at Solving CAPTCHAs?</a>
-        Bursztein, Bethard, Fabry, Mitchell, and Jurafsky.
-        Oakland&nbsp;2010.
-      </li>
-      <li>
-        <a href="https://jhalderm.com/pub/papers/sketcha-www10.pdf">Sketcha: A Captcha Based on Line Drawings of 3D Models</a>.
-        Ross, Halderman, and Finkelstein.
-        WWW&nbsp;2010.
-      </li>
-      <li>
-        <a href="https://www.cl.cam.ac.uk/~jcb82/doc/B12-IEEESP-evaluating_a_huge_password_corpus.pdf">The Science of Guessing: Analyzing an Anonymized Corpus of 70 Million Passwords</a>.
-        Joseph Bonneau.
-        Oakland&nbsp;2012.
-      </li>
-      <li>
-        <a href="http://www.scs.carleton.ca/~paulv/papers/usenix06.pdf">A Usability Study and Critique of Two Password Managers</a>.
-        Chiasson, van Oorschot, and Biddle.
-        Usenix&nbsp;Security&nbsp;2006.
-      </li>
-      <li>
-        <a href="https://www.usenix.org/system/files/conference/usenixsecurity12/sec12-final25.pdf">Designing Crypto Primitives Secure Against Rubber Hose Attacks</a>.
-        Bojinov, Sanchez, Reber, Boneh, and Lincoln.
-        Usenix&nbsp;Security&nbsp;2012.
-      </li>
-      <li>
-        <a href="http://people.csail.mit.edu/rivest/pubs/JR13.pdf">Honeywords: Making Password-Cracking Detectable</a>.
-        Juels and Rivest.
-        CCS&nbsp;2013.
-      </li>
-    </ul>
-  </div>
-  <div>
-    <h3>
-      Thursday, February 23
-      &mdash; Usable Security
-    </h3>
-    <ul>
-      <li>
-        <a href="https://people.eecs.berkeley.edu/~tygar/papers/Why_Johnny_Cant_Encrypt/USENIX.pdf">Why Johnny Can&rsquo;t Encrypt: A Usability Evaluation of PGP 5.0</a>.
-        Whitten and Tygar.
-        Usenix&nbsp;Security&nbsp;1999.
-      </li>
-      <li>
-        <a href="http://devd.me/papers/alice-in-warningland.pdf">Alice in Warningland: A Large-Scale Field Study of Browser Security Warning Effectiveness</a>.
-        Akhawe and Felt.
-        Usenix&nbsp;Security&nbsp;2013.
-      </li>
-    </ul>
-    <ul class="opt">
-      <li>
-        <a href="">Why (Special Agent) Johnny (Still) Can't Encrypt</a>.
-        Clark, Goodspeed, Metzger, Wasserman, Xu, and Blaze.
-        Usenix&nbsp;Security&nbsp;2011.
-      </li>
-      <li>
-        <a href="https://www.cs.princeton.edu/~sgaw/publications/01Feb-Activists-sgaw-CHI2006.pdf">Secrecy, Flagging, and Paranoia: Adoption Criteria in Encrypted Email</a>.
-        Gaw, Felten, and Fernandez-Kelly.
-        CHI&nbsp;2006.
-      </li>
-      <li>
-        <a href="https://research.microsoft.com/en-us/um/people/cormac/papers/2009/solongandnothanks.pdf">So Long, And No Thanks for the Externalities: The Rational Rejection of Security Advice by Users</a>.
-        Cormac Herley.
-        NSPW&nbsp;2009.
-      </li>
-      <li>
-        <a href="http://www.cc.gatech.edu/~beki/j7.pdf">In Search of Usable Security: Five Lessons from the Field</a>.
-        Balfanz, Durfee, Grinter, and Smetters.
-        IEEE Security and Privacy, September/October 2004.
-      </li>
-      <li>
-        <a href="http://www.rickwash.com/papers/rwash-homesec-soups10-final.pdf">Folk Models of Home Computer Security</a>.
-        Rick Wash.
-        SOUPS&nbsp;2010.
-      </li>
-      <li>
-        <a href="http://cups.cs.cmu.edu/soups/2013/proceedings/a6_Bravo-Lillo.pdf">Your Attention Please: Designing Security-Decision UIs</a>.
-        Bravo-Lillo, Cranor, Downs, Komanduri, Reeder, Schechter, and Sleeper.
-        SOUPS&nbsp;2013.
-      </li>
-    </ul>
-  </div>
-  
-  
-  <a name="week9"></a>
+  <a name=""></a>
   <h2>Network Security</h2>
-  <div>
-    <h3>
-      Tuesday, March 7
-      &mdash; Network Attacks
-    </h3>
+
+    
+      <div>
+      <h3>Tuesday, September 8 &mdash; TCP/IP</h3>
     <ul>
+      
       <li>
-        <a href="https://jhalderm.com/pub/papers/heartbleed-imc14.pdf">The Matter of Heartbleed</a>.
-        Durumeric et al.
-        IMC 2014.
+        <a href="https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/cao">Off-Path TCP Exploits: Global Rate Limit Considered Dangerous</a>.
+        
+        Yue Cao, Zhiyun Qian, Zhongjie Wang, Tuan Dao, Srikanth V. Krishnamurthy, and Lisa M. Marvel.
+        
+        Usenix Security, 2016.
       </li>
-	  <li>
-        <a href="https://weakdh.org/imperfect-forward-secrecy-ccs15.pdf">Imperfect Forward Secrecy: How Diffie-Hellman Fails in Practice</a>.
-        Adrian et al.
-        CCS 2015.
-      </li>
-    </ul>
+      
+    </ul> 
+    
     <ul class="opt">
+      
       <li>
-        <a href="https://www.cs.columbia.edu/~smb/papers/ipext.pdf">A Look Back at &ldquo;Security Problems in the TCP/IP Protocol Suite.&rdquo;</a>
-        Steve Bellovin.
-        ACSAC&nbsp;2004.
+        <a href="https://www.censoredplanet.org/assets/Ensafi2014a.pdf">Detecting Intentional Packet Drops on theInternet via TCP/IP Side Channels</a>.
+        
+        Roya Ensafi, Jeffrey Knockel, Geoffrey Alexander, and Jedidiah R. Crandall.
+        
+        PAM,  2014.
       </li>
+      
       <li>
-        <a href="https://www.internetsociety.org/sites/default/files/01_5.pdf">Amplification Hell: Revisiting Network Protocols for DDoS Abuse</a>.
+        <a href="https://www.censoredplanet.org/assets/Pearce2017a.pdf">Augur: Internet-wide detection of connectivity disruptions</a>.
+        
+        Paul Pearce, Roya Ensafi, Frank Li, Nick Feamster, and Vern Paxson.
+        
+        Oakland,  2017.
+      </li>
+      
+    </ul> 
+
+    
+  </div>
+    
+      <div>
+      <h3>Thursday, September 10 &mdash; DNS</h3>
+    <ul>
+      
+      <li>
+        <a href="https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/cao">A Longitudinal, End-to-End View of the DNSSEC Ecosystem</a>.
+        
+        Taejoong Chung, Roland van Rijswijk-Deij, Balakrishnan Chandrasekaran, David Choffnes, Dave Levin, Bruce M. Maggs, Alan Mislove, and Christo Wilson.
+        
+        Usenix Security, 2017.
+      </li>
+      
+    </ul> 
+    
+    <ul class="opt">
+      
+      <li>
+        <a href="https://www.censoredplanet.org/assets/Scott2016a.pdf">Satellite: Joint analysis of CDNs and network-level interference</a>.
+        
+        Will Scott, Thomas Anderson, Tadayoshi Kohno, and Arvind Krishnamurthy.
+        
+        Usenix ATC,  2016.
+      </li>
+      
+      <li>
+        <a href="https://www.censoredplanet.org/assets/Pearce2017b.pdf">Global Measurement of DNS Manipulation</a>.
+        
+        Paul Pearce, Ben Jones, Frank Li, Roya Ensafi, Nick Feamster, Nick Weaver, and Vern Paxson.
+        
+        Usenix Security,  2017.
+      </li>
+      
+      <li>
+        <a href="https://dl.acm.org/doi/abs/10.1145/3355369.3355566">DNS observatory: The big picture of the DNS</a>.
+        
+        Pawel Foremski, Oliver Gasser, and Giovane CM Moura.
+        
+        IMC,  2019.
+      </li>
+      
+    </ul> 
+
+    
+  </div>
+    
+
+  
+  <a name=""></a>
+  <h2>Botnets and Denial of Service Attacks</h2>
+
+    
+      <div>
+      <h3>Tuesday, September 22 &mdash; Botnets</h3>
+    <ul>
+      
+      <li>
+        <a href="https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-antonakakis.pdf">Understanding the Mirai Botnet</a>.
+        
+        Manos Antonakakis, Tim April, Michael Bailey, Matt Bernhard, Elie Bursztein, Jaime Cochran, Zakir Durumeric et al.
+        
+        Usenix Security, 2017.
+      </li>
+      
+    </ul> 
+    
+    <ul class="opt">
+      
+      <li>
+        <a href="https://dl.acm.org/doi/abs/10.1145/1653662.1653738">Your botnet is my botnet: analysis of a botnet takeover</a>.
+        
+        Brett Stone-Gross, Marco Cova, Lorenzo Cavallaro, Bob Gilbert, Martin Szydlowski, Richard Kemmerer, Christopher Kruegel, and Giovanni Vigna.
+        
+        CCS,  2009.
+      </li>
+      
+    </ul> 
+
+    
+  </div>
+    
+      <div>
+      <h3>Thursday, September 24 &mdash; DoS</h3>
+    <ul>
+      
+      <li>
+        <a href="https://christian-rossow.de/publications/amplification-ndss2014.pdf">Amplification Hell: Revisiting Network Protocols for DDoS Abuse</a>.
+        
         Christian Rossow.
-        NDSS&nbsp;2014.
+        
+        NDSS, 2014.
       </li>
+      
+    </ul> 
+    
+    <ul class="opt">
+      
       <li>
-        <a href="https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/kuhrer">Exit from Hell? Reducing the Impact of Amplification DDoS Attacks</a>.
-        K&uuml;hrer, Hupperich, Rossow, and Holz.
-        Usenix&nbsp;Security&nbsp;2014.
+        <a href="https://dl.acm.org/doi/10.1145/2976749.2978293">Identifying the Scan and Attack Infrastructures Behind Amplification DDoS Attacks</a>.
+        
+        Johannes Krupp, Michael Backes, and Christian Rossow.
+        
+        CCS,  2016.
       </li>
+      
       <li>
-        <a href="http://www.phrack.org/issues.html?issue=64&amp;id=13">Blind TCP/IP Hijacking is Still Alive</a>.
-        lkm.
-        Phrack&nbsp;64, 2007.
-      </li>
-      <li>
-        <a href="https://www.cs.princeton.edu/~jrex/papers/bgp-security08.pdf">A Survey of BGP Security Issues and Solutions</a>.
-        Butler, Farley, McDaniel, and Rexford.
-        2008.
-      </li>
-      <li>
-        <a href="http://s3.amazonaws.com/dmk/DMK_BO2K8.ppt">Black Ops 2008: It&rsquo;s the End of the Cache as We Know It</a>.
-        Dan Kaminsky.
-        Toorcon&nbsp;2008.
-      </li>
-      <li>
-        <a href="http://portal.acm.org/citation.cfm?id=1455770.1455798">Increased DNS Forgery Resistance Through 0x20-Bit Encoding</a>.
-        Dagon, Antonakakis, Vixie, Jinmei, and Lee.
-        CCS&nbsp;2008.
-      </li>
-      <li>
-        <a href="papers/bro-CN99.pdf">Bro: A System for Detecting Network Intruders in Real-Time</a>.
+        <a href="https://www.usenix.org/legacy/publications/library/proceedings/sec98/full_papers/paxson/paxson.pdf">Bro: A System for Detecting Network Intruders in Real-Time</a>.
+        
         Vern Paxson.
-        Computer Networks 31(23-24), 1999.
-      </li>
-      <li>
-        <a href="http://www.ietf.org/rfc/rfc3514.txt">The Security Flag in the IPv4 Header</a>.
-        Steve Bellovin.
-        RFC 3514.
-      </li>
-    </ul>
-  </div>
-  <div>
-    <h3>
-      Thursday, March 9
-      &mdash; Online Crime
-    </h3>
-    <ul>
-      <li>
-        <a href="https://www.usenix.org/system/files/conference/usenixsecurity12/sec12-final204.pdf">PharmaLeaks: Understanding the Business of Online Pharmaceutical Affiliate Programs</a>.
-        McCoy et al.
-        USENIX Security&nbsp;2012.
-      </li>
-      <li>
-        <a href="http://seclab.cs.ucsb.edu/media/uploads/papers/torpig.pdf">Your Botnet is My Botnet: Analysis of a Botnet Takeover</a>.
-        Stone-Gross, Cova, Cavallaro, Gilbert, Szydlowski, Kemmerer, Kruegel, and Vigna.
-        CCS&nbsp;2009.
-      </li>
-    </ul>
-    <ul class="opt">
-	  <li>
-        <a href="http://www.icir.org/christian/publications/2008-ccs-spamalytics.pdf">Spamalytics: An Empirical Analysis of Spam Marketing Conversion</a>.
-        Kanich, Kreibich, Levchenko, Enright, Voelker, Paxson, and Savage.
-        CCS&nbsp;2008.
-      </li>
-      <li>
-        <a href="http://www.christian-rossow.de/publications/p2pwned-ieee2013.pdf">Modeling and Evaluating the Resilience of Peer-to-Peer Botnets</a>.
-        Rossow, Andriesse, Werner, Stone-Gross, Plohmann, Dietrich, and Bos.
-        Oakland&nbsp;2013.
-      </li>
-      <li>
-        <a href="http://www.cs.jhu.edu/~fabian/papers/botnets.pdf">A Multifaceted Approach to Understanding the Botnet Phenomenon</a>.
-        Rajab, Zarfoss, Monrose, and Terzis.
-        ISC&nbsp;2006.
-      </li>
-      <li>
-        <a href="http://www.cs.berkeley.edu/~pearce/papers/clickbots_dimva_2011.pdf">What&rsquo;s Clicking What? Techniques and Innovations of Today&rsquo;s Clickbots</a>.
-        Miller, Pearce, Grier, Kreibich, and Paxson.
-        DIMVA&nbsp;2011.
-      </li>
-      <li>
-        <a href="https://www.usenix.org/system/files/conference/usenixsecurity12/sec12-final39.pdf">Clickjacking: Attacks and Defenses</a>.
-        Huang, Moshchuk, Wang, Schechter, and Jackson.
-        Usenix&nbsp;Security&nbsp;2012.
-      </li>
-      <li>
-        <a href="http://web.eecs.umich.edu/~jingzj/paper/jing_ndss14.pdf">On the Mismanagement and Maliciousness of Networks</a>.
-        Zhang, Durumeric, Bailey, Liu, and Karir.
-        NDSS&nbsp;2014.
-      </li>
-    </ul>
-  </div>
-  <a name="week10"></a>
-  <h2>Security and Government Power</h2>
-  <div>
-    <h3>
-      Tuesday, March 14
-      &mdash; Post-Snowden Era
-    </h3>
-    <ul>
-	  <li>
-        <a href="https://www.us-cert.gov/security-publications/GRIZZLY-STEPPE-Russian-Malicious-Cyber-Activity">Grizzly Steppe</a>.
-        DHS, US-CERT, 2016.
-      </li>
-	  <li>
-        <a href="https://dl.acm.org/citation.cfm?id=2978307">How I Learned to be Secure: a Census-Representative Survey of Security Advice Sources and Behavior</a>.
-		Redmiles et al.
-        CCS, 2016.
+        
+        Usenix Security,  1998.
       </li>
       
-    </ul>
-    <ul class="opt">
-	  <li>
-        <a href="https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)">Global Surveillance Disclosures</a>.
-        Wikipedia.
-      </li>
-      <li>
-        <a href="http://www.cato.org/policy-report/novemberdecember-2013/decoding-summer-snowden">Decoding the Summer of Snowden</a>.
-        Julian Sanchez.
-        Cato Policy Report, 2013.
-      </li>
-      <li>
-        <a href="http://leaksource.wordpress.com/2013/12/30/nsas-ant-division-catalog-of-exploits-for-nearly-every-major-software-hardware-firmware/">NSA's ANT Division Catalog of Exploits</a>.
-        Published by <i>Der Spiegel</i>, Dec.&nbsp;2013.
-      </li>
-      <li>
-        <a href="http://www.whitehouse.gov/sites/default/files/docs/2013-12-12_rg_final_report.pdf">Liberty and Security in a Changing World</a>.
-        President's review group on intelligence and communications technologies.
-        Dec.&nbsp;2013.
-      </li>
-      <li>
-        <a href="http://www.theguardian.com/world/2013/jun/06/nsa-phone-records-verizon-court-order">NSA Collecting Phone Records of Millions of Verizon Customers Daily</a>.
-        Glenn Greenwald.
-        The Guardian, Jun.&nbsp;2013.
-      </li>
-      <li>
-        <a href="http://www.washingtonpost.com/world/national-security/nsa-infiltrates-links-to-yahoo-google-data-centers-worldwide-snowden-documents-say/2013/10/30/e51d661e-4166-11e3-8b74-d89d714ca4dd_story.html">NSA Infiltrates Links to Yahoo, Google Data Centers Worldwide, Snowden Documents Say</a>.
-        Gellman and Soltani.
-        Washington Post, Oct.&nbsp;2013.
-      </li>
-      <li>
-        <a href="http://www.theguardian.com/world/2014/jan/16/nsa-collects-millions-text-messages-daily-untargeted-global-sweep">NSA Collects Millions of Text Messages Daily in &lsquo;Untargeted&rsquo; Global Sweep</a>.
-        James Ball.
-        The Guardian, Jan.&nbsp;2014.
-      </li>
-      <li>
-        <a href="http://www.usenix.org/event/leet08/tech/full_papers/king/king.pdf">Designing and Implementing Malicious Hardware</a>.
-        King, Tucek, Cozzie, Grier, Jiang, and Zhou.
-        LEET&nbsp;2008.
-      </li>
-      <li>
-        <a href="http://sharps.org/wp-content/uploads/BECKER-CHES.pdf">Stealthy Dopant-Level Hardware Trojans</a>.
-        Becker, Regazzoni, Paar, and Burleson.
-        CHES&nbsp;2013.
-      </li>
-      <li>
-        <a href="http://dualec.org/DualECTLS.pdf">On the Practical Exploitability of Dual EC in TLS Implementations</a>.
-        Checkoway, Fredrikson, Niederhagen, Everspaugh, Green, Lange, Ristenpart, Bernstein, Maskiewicz, and Shacham.
-        Usenix&nbsp;Security&nbsp;2015.
-      </li>
-    </ul>
+    </ul> 
+
+    
   </div>
-  <div>
-    <h3>
-      Thursday, March 16
-      &mdash; Cyberwar/Crypto War
-    </h3>
-    <ul>
-      <li>
-        <a href="http://securityresponse.symantec.com/en/id/content/en/us/enterprise/media/security_response/whitepapers/w32_stuxnet_dossier.pdf">W32.Stuxnet Dossier</a>.
-        Falliere, Murchu, and Chien.
-        Symantec technical report, 2011.
-      </li>
-      <li>
-        <a href="https://www.schneier.com/cryptography/paperfiles/paper-keys-under-doormats-CSAIL.pdf">Keys Under Doormats</a>.
-        Abelson, Anderson, Bellovin, Benaloh, Blaze, Diffie, Gilmore, Green, Landau, Neumann, Rivest, Schiller, Schneier, Specter, and Weitzner.
-        July 2015.
-      </li>
-    </ul>
-    <ul class="opt">
-      <li>
-        <a href="http://intelreport.mandiant.com/Mandiant_APT1_Report.pdf">APT1 Report</a>.
-        Mandiant technical report, 2013.
-      </li>
-      <li>
-        <a href="http://www.foreignaffairs.com/articles/140160/thomas-rid/cyberwar-and-peace">Cyberwar and Peace</a>.
-        Thomas Rid.
-        Foreign Affairs, Nov./Dec.&nbsp;2013.
-      </li>
-      <li>
-        <a href="http://www.langner.com/en/wp-content/uploads/2013/11/To-kill-a-centrifuge.pdf">To Kill a Centrifuge</a>.
-        Ralph Langner.
-        Nov.&nbsp;2013.
-      </li>
-      <li>
-        <a href="https://assets.documentcloud.org/documents/2714005/SB-Shooter-Order-Compelling-Apple-Asst-iPhone.pdf">Order Compelling Apple, Inc. to Assist Agents in Search</a>.
-        Feb.&nbsp;2016.
-      </li>
-      <li>
-        <a href="http://www.scribd.com/doc/300522240/Motion-to-Vacate-Brief-and-Supporting-Declarations">Apple Inc.'s Motion to Vacate Order Compelling Apple Inc. to Assist Agents in Search, and Opposition to Government's Motion to Compel Assistance</a>.
-        Feb.&nbsp;2016.
-      </li>
-      <li>
-        <a href="https://www.fbi.gov/about-us/otd/going-dark-issue">Statement Before the Senate Select Committee on Intelligence</a>.
-        James Comey.
-        July&nbsp;2015.
-      </li>
-      <li>
-        <a href="https://www.cs.columbia.edu/~smb/papers/GoingBright.pdf">Going Bright: Wiretapping without Weakening Communications Infrastructure</a>.
-        Bellovin, Blaze, Clark, and Landau.
-        IEEE Security & Privacy 11:1, Jan/Feb 2013.
-      </li>
-      <li>
-        <a href="http://privacyink.org/pdf/export_control.pdf">The Export of Cryptography in the 20th Century and the 21st</a>.
-         Diffie and Landau.
-        In the <i>Handbook of the History of Information Security</i>, Elsevier, 2005.
-      </li>
-      <li>
-        <a href="https://cr.yp.to/export.html">Bernstein v. United States</a>.
-        1995&ndash;2002.
-      </li>
-      <li>
-        <a href="https://www.documentcloud.org/documents/801182-redacted-pleadings-exhibits-1-23.html">Lavabit Legal Proceedings</a>.
-        2013.
-      </li>
-    </ul>
-  </div>
+    
+
   
-  
-  <a name="week11"></a>
-  <h2>Critical Systems / Hardware</h2>
-  <div>
-    <h3>
-      Tuesday, March 21
-      &mdash; Automotive Security
-    </h3>
-    <ul>
-      <li>
-        <a href="http://www.autosec.org/pubs/cars-oakland2010.pdf">Experimental Security Analysis of a Modern Automobile</a>.
-        Koscher, Czeskis, Roesner, Patel, Kohno, Checkoway, McCoy, Kantor, Anderson, Shacham, and Savage.
-        Oakland&nbsp;2010.
-      </li>
-      <li>
-        <a href="http://www.autosec.org/pubs/cars-usenixsec2011.pdf">Comprehensive Experimental Analyses of Automotive Attack Surfaces</a>.
-        Checkoway, McCoy, Kantor, Anderson, Shacham, Savage, Koscher, Czeskis, Roesner, and Kohno.
-        Usenix&nbsp;Security&nbsp;2011.
-      </li>
-    </ul>
-    <ul class="opt">
-      <li>
-        <a href="http://illmatics.com/car_hacking.pdf">Adventures in Automotive Networks and Control Units</a>.
-        Miller and Valasek.
-        Countermeasure&nbsp;2013.
-      </li>
-      <li>
-        <a href="http://illmatics.com/Remote%20Car%20Hacking.pdf">Remote Exploitation of an Unaltered Passenger Vehicle</a>.
-        Miller and Valasek.
-        DEF&nbsp;CON&nbsp;23, Aug.&nbsp;2015.
-      </li>
-      <li>
-        <a href="https://spqr.eecs.umich.edu/papers/b1kohFINAL2.pdf">Security and Privacy for Implantable Medical Devices</a>.
-        Halperin, Heydt-Benjamin, Fu, Kohno, and Maisel.
-        IEEE Pervasive Computing 7(1), 2008.
-      </li>
-      
-      <li>
-        <a href="https://jhalderm.com/pub/papers/ipmi-woot13.pdf">Illuminating the Security Issues Surrounding Lights-Out Server Management</a>.
-        Bonkoski, Bielawski, and Halderman.
-        WOOT&nbsp;2013.
-      </li>
-    </ul>
-  </div>
-  <div>
-    <h3>
-      Thursday, March 23
-      &mdash; Hardware Security
-    </h3>
-    <ul>
-      <li>
-        <a href="https://www.ieee-security.org/TC/SP2016/papers/0824a018.pdf">A2: Analog Malicious Hardware</a>.
-        Yang et al.
-        Oakland&nbsp;2016.
-      </li>
-	  <li>
-        <a href="http://www.secure-medicine.org/public/publications/icd-study.pdf">Pacemakers and Implantable Cardiac Defibrillators: Software Radio Attacks and Zero-Power Defenses</a>.
-        Halperin, Heydt-Benjamin, Ransford, Clark, Defend, Morgan, Fu, Kohno, and Maisel.
-        Oakland&nbsp;2008.
-      </li>
-    </ul>
-    <ul class="opt">
-	  <li>
-        <a href="https://googleprojectzero.blogspot.com/2015/03/exploiting-dram-rowhammer-bug-to-gain.html">Rowhammer</a>.
-         Google.
-      </li>
-      <li>
-        <a href="https://vvdveen.com/publications/drammer.pdf">Drammer: Deterministic Rowhammer Attacks on Mobile Platforms</a>.
-        van der Ween et al.
-        CCS 2016.
-      </li>
-	  <li>
-        <a href="http://dl.acm.org/citation.cfm?id=2665726">Flipping bits in memory without accessing them: an experimental study of DRAM disturbance errors</a>.
-        Kim et al.
-        ISCA 2014.
-      </li>
-    </ul>
-  </div>
-  
-  
-  <a name="week12"></a>
-  <h2>Privacy and Confidentiality</h2>
-  <div>
-    <h3>
-      Tuesday, March 28
-      &mdash; Deletion and Leakage
-    </h3>
-    <ul>
-      <li>
-        <a href="https://citp.princeton.edu/memory/">Lest We Remember: Cold Boot Attacks on Encryption Keys</a>.
-        Halderman, Schoen, Heninger, Clarkson, Paul, Calandrino, Feldman, Appelbaum, and Felten.
-        Usenix&nbsp;Security&nbsp;2008.
-      </li>
-      <li>
-        <a href="http://www.inf.ethz.ch/personal/basin/pubs/oakland13.pdf">Secure Data Deletion</a>.
-        Reardon, Basin, and Capkun.
-        Oakland&nbsp;2013.
-      </li>
-    </ul>
-    <ul class="opt">
-      <li>
-        <a href="http://dl.acm.org/citation.cfm?id=2516724">History Independence for File Systems</a>.
-        Bajat and Sion.
-        CCS&nbsp;2013.
-      </li>
-      <li>
-        <a href="http://srgsec.cs.uiuc.edu/bootjacker.pdf">BootJacker: Compromising Computers Using Forced Restarts</a>.
-         Chan, Carlyle, David, Farivar, and Campbell.
-        CCS&nbsp;2008.
-      </li>
-      <li>
-        <a href="http://static.usenix.org/events/sec05/tech/full_papers/chow/chow.pdf">Shredding Your Garbage: Reducing Data Lifetime Through Secure Deallocation</a>.
-        Chow, Pfaff, Garfinkel, and Rosenblum.
-        Usenix&nbsp;Security&nbsp;2005.
-      </li>
-      <li>
-        <a href="http://vanish.cs.washington.edu/pubs/usenixsec09-geambasu.pdf">Increasing Data Privacy with Self-Destructing Data</a>.
-        Geambasu, Kohno, Levy, and Levy.
-        Usenix&nbsp;Security&nbsp;2009.
-      </li>
-      <li>
-        <a href="https://jhalderm.com/pub/papers/unvanish-ndss10-web.pdf">Defeating Vanish with Low-Cost Sybil Attacks Against Large DHTs</a>.
-        Wolchok, Hofmann, Heninger, Felten, Halderman, Rossbach, Waters, and Witchel.
-        NDSS&nbsp;2010.
-      </li>
-      <li>
-        <a href="http://www.cs.ucsd.edu/~hovav/papers/hs09.html">Reconstructing RSA Private Keys from Random Key Bits</a>.
-        Heninger and Shacham.
-        Crypto&nbsp;2009.
-      </li>
-      <li>
-        <a href="https://www.usenix.org/events/sec09/tech/full_papers/zhang.pdf">Peeping Tom in the Neighborhood: Keystroke Eavesdropping on Multi-User Systems</a>.
-        Zhang and Wang.
-        Usenix&nbsp;Security&nbsp;2009.
-      </li>
-      <li>
-        <a href="https://www.cl.cam.ac.uk/~mgk25/pet2004-fpd.pdf">Electromagnetic Eavesdropping Risks of Flat-Panel Displays</a>.
-        Markus Kuhn.
-        PETS&nbsp;2004.
-      </li>
-    </ul>
-  </div>
-  <div>
-    <h3>
-      Thursday, March 30
-      &mdash; Privacy in the Cloud
-    </h3>
-    <ul>
-      <li>
-        <a href="https://people.eecs.berkeley.edu/~raluca/mylar.pdf">Mylar</a>.
-        Popa et al.
-        NSDI 2014.
-      </li>
-      <li>
-        <a href="https://people.eecs.berkeley.edu/~sylvia/papers/blindbox.pdf">BlindBox: Deep Packet Inspection over Encrypted Traffic</a>.
-        Sherry et al.
-        SIGCOMM&nbsp;2015.
-      </li>
-    </ul>
-    <ul class="opt">
-      <li>
-        <a href="http://www.ieee-security.org/TC/SP2011/PAPERS/2011/paper015.pdf">&ldquo;You Might Also Like:&rdquo; Privacy Risks of Collaborative Filtering</a>.
-        Calandrino, Kilzer, Narayanan, Felten, and Shmatikov.
-        Oakland&nbsp;2011.
-      </li>
-      <li>
-        <a href="http://hal.archives-ouvertes.fr/docs/00/91/52/49/PDF/SellingOffPrivacyAtAuction.pdf">Selling Off Privacy at Auction</a>.
-        Olejnik, Tran, and Castelluccia.
-        NDSS&nbsp;2014.
-      </li>
-      <li>
-        <a href="https://cyberlaw.stanford.edu/files/publication/files/trackingsurvey12.pdf">Third-Party Web Tracking: Policy and Technology</a>.
-        Mayer and Mitchell.
-        Oakland&nbsp;2012.
-      </li>
-      <li>
-        <a href="http://www.cs.washington.edu/homes/yoshi/papers/PDF/KoBrCl05PDF-lowres.pdf">Remote Physical Device Fingerprinting</a>.
-        Kohno, Broido, and Claffy.
-        Oakland&nbsp;2005.
-      </li>
-      <li>
-        <a href="https://crypto.stanford.edu/adnostic/adnostic-ndss.pdf">Adnostic: Privacy Preserving Targeted Advertising</a>.
-        Toubiana, Narayanan, Boneh, Nissenbaum, and Barocas.
-        NDSS&nbsp;2010.
-      </li>
-      <li>
-        <a href="https://css.csail.mit.edu/mylar/mylar.pdf">Securing Web Applications by Blindfolding the Server</a>.
-        Popa, Stark, Valdez, Helfer, Zeldovich, Kasshoek, and Balakrishnan.
-        NSDI&nbsp;2014.
-      </li>
-      <li>
-        <a href="https://crypto.stanford.edu/~dabo/pubs/papers/privatebrowsing.pdf">An Analysis of Private Browsing Modes in Modern Browsers</a>.
-        Aggarwal, Bursztein, Jackson, and Boneh.
-        Usenix&nbsp;Security&nbsp;2010.
-      </li>
-      <li>
-        <a href="https://www.google.com/policies/privacy/">Privacy Policy</a>.
-        Google, Inc.
-      </li>
-    </ul>
-  </div>
-  <a name="week13"></a>
+  <a name=""></a>
   <h2>Online Freedom</h2>
-  <div>
-    <h3>
-      Tuesday, April 4
-      &mdash; Anonymity
-    </h3>
+
+    
+      <div>
+      <h3>Tuesday, September 15 &mdash; Anonymity</h3>
     <ul>
+      
       <li>
         <a href="https://svn.torproject.org/svn/projects/design-paper/tor-design.pdf">Tor: The Second-Generation Onion Router</a>.
-        Dingledine, Mattewson, and Syverson.
-        Usenix&nbsp;Security&nbsp;2004.
+        
+        Paul Syverson, Roger Dingledine, and Nick Mathewson.
+        
+        Usenix Security, 2004.
       </li>
+      
       <li>
         <a href="http://www.cypherpunks.ca/~iang/pubs/secmessaging-oakland15.pdf">SoK: Secure Messaging</a>.
-        Unger, Dechand, Bonneau, Fahl, Perl, Goldberg, and Smith.
-        Oakland&nbsp;2015.
+        
+        Nik Unger, Sergej Dechand, Joseph Bonneau, Sascha Fahl, Henning Perl, Ian Goldberg, and Matthew Smith.
+        
+        Oakland, 2015.
       </li>
-    </ul>
+      
+    </ul> 
+    
     <ul class="opt">
+      
       <li>
         <a href="http://www.ohmygodel.com/publications/usersrouted-ccs13.pdf">Users Get Routed: Traffic Correlation on Tor by Realistic Adversaries</a>.
-        Johnson, Wacek, Jansen, Sherr, and Syverson.
-        CCS&nbsp;2013.
+        
+        Aaron Johnson, Chris Wacek, Rob Jansen, Micah Sherr, and Paul Syverson.
+        
+        CCS,  2013.
       </li>
-      <li>
-        <a href="http://www.cypherpunks.ca/~iang/pubs/otr-wpes.pdf">Off-the-Record Communication, or, Why Not to Use PGP</a>.
-        Borisov, Goldberg, and Brewer.
-        WPES&nbsp;2004.
-      </li>
-      <li>
-        <a href="https://eprint.iacr.org/2014/904.pdf">How Secure is TextSecure?</a>
-        Frosch, Mainka, Bader, Bergsma, Schwenk, and Holz.
-        EuroS&amp;P&nbsp;2016.
-      </li>
-      <li>
-        <a href="https://www.cs.washington.edu/homes/yoshi/papers/Tor/PETS2008_37.pdf">Shining Light in Dark Places: Understanding the Tor Network</a>.
-        McCoy, Bauer, Grunwald, Kohno, and Sicker.
-        PETS&nbsp;2008.
-      </li>
-      <li>
-        <a href="http://www.ieee-security.org/TC/SP2013/papers/4977a080.pdf">Trawling for Tor Hidden Services</a>.
-        Biryukov, Pustogarov, and Weinmann.
-        Oakland&nbsp;2013.
-      </li>
-      <li>
-        <a href="http://cdn3.sbnation.com/assets/3326809/UlbrichtCriminalComplaint.pdf">Criminal Complaint, U.S. v. Ulbricht</a>.
-        Oct.&nbsp;2013.
-      </li>
-      <li>
-        <a href="https://www.schneier.com/blog/archives/2013/10/how_the_nsa_att.html">How the NSA Attacks Tor Users with QUANTUM and FOXACID</a>.
-        Bruce Schneier.
-        Oct.&nbsp;2013.
-      </li>
+      
       <li>
         <a href="http://arstechnica.com/tech-policy/2016/02/judge-confirms-what-many-suspected-feds-hired-cmu-to-break-tor/">Judge Confirms What Many Suspected: Feds Hired CMU to Break Tor</a>.
+        
         Cyrus Farivar.
-        Ars Technica, Feb.&nbsp;2016.
+        
+        Ars Technica,  2016.
       </li>
-    </ul>
+      
+    </ul> 
+
+    
   </div>
-  <div>
-    <h3>
-      Thursday, April 6
-      &mdash; Censorship Resistance
-    </h3>
+    
+      <div>
+      <h3>Thursday, September 17 &mdash; Censorship Resistance</h3>
     <ul>
-      <li>
-        <a href="https://nymity.ch/active-probing/imc2015.pdf">Examining How the Great Firewall Discovers Hidden Circumvention Servers</a>.
-        Ensafi, Fifield, Winter, Feamster, Weaver, and Paxson.
-        IMC&nbsp;2015.
-      </li>
-      <li>
-        <a href="https://ericw.us/trow/tapdance-sec14.pdf">TapDance: End-to-Middle Anticensorship without Flow Blocking</a>.
-        Wustrow, et al.
-        Usenix&nbsp;Security&nbsp;2014.
-      </li>
-    </ul>
-    <ul class="opt">
-	  <li>
-        <a href="https://telex.cc/pub/telex-usenixsec11.pdf">Telex: Anticensorship in the Network Infrastructure</a>.
-        Wustrow, Wolchok, Goldberg, and Halderman.
-        Usenix&nbsp;Security&nbsp;2011.
-      </li>
+      
       <li>
         <a href="https://petsymposium.org/2015/papers/03_Fifield.pdf">Blocking-resistant Communication Through Domain Fronting</a>.
-        Fifield, Lan, Hynes, Wegmann, and Paxson.
-        PETS&nbsp;2015.
+        
+        David Fifield, Chang Lan, Rod Hynes, Percy Wegmann, and Vern Paxson.
+        
+        PETS, 2015.
       </li>
+      
+    </ul> 
+    
+    <ul class="opt">
+      
       <li>
-        <a href="http://www.cs.kau.se/philwint/pdf/wpes2013.pdf">Scramblesuit: A Polymorphic Network Protocol to Circumvent Censorship</a>.
-        Winter, Pulls, and Fuss.
-        WPES&nbsp;2013.
+        <a href="https://dl.acm.org/doi/abs/10.1145/3319535.3363218">Conjure: Summoning Proxies from Unused Address Space</a>.
+        
+        Sergey Frolov, Jack Wampler, Sze Chuen Tan, J. Alex Halderman, Nikita Borisov, and Eric Wustrow.
+        
+        CCS,  2019.
       </li>
+      
       <li>
-        <a href="http://eprint.iacr.org/2012/494.pdf">Protocol Misidentification Made Easy with Format-Transforming Encryption</a>.
-        Dyer, Coull, Ristenpart, and Shrimpton.
-        CSS&nbsp;2013.
+        <a href="https://web.cs.umass.edu/publication/docs/2018/UM-CS-2018-005.pdf">MassBrowser: Unblocking the Web for the Masses, By the Masses</a>.
+        
+        Milad Nasr, Hadi Zolfaghari, and Amir Houmansadr.
+        
+        NDSS,  2020.
       </li>
+      
       <li>
-        <a href="http://pam2011.gatech.edu/papers/pam2011--Xu.pdf">Internet Censorship in China: Where Does the Filtering Occur?</a>
-        Xu, Mao, and Halderman.
-        PAM&nbsp;2011.
+        <a href="https://dl.acm.org/doi/abs/10.1145/3319535.3363189">Geneva: Evolving censorship evasion strategies</a>.
+        
+        Kevin Bock, George Hughey, Xiao Qiang, and Dave Levin.
+        
+        CCS,  2019.
       </li>
+      
       <li>
-        <a href="https://jhalderm.com/pub/papers/iran-foci13.pdf">Internet Censorship in Iran: A First Look</a>.
-        Aryan, Aryan, and Halderman.
-        FOCI&nbsp;2013.
+        <a href="https://pdfs.semanticscholar.org/de53/d55470addc0e0d52fd82c2f4bd8e4ca879c2.pdf">WireGuard: Next Generation Kernel Network Tunnel</a>.
+        
+        Jason A. Donenfeld.
+        
+        NDSS,  2017.
       </li>
-      <li>
-        <a href="https://jhalderm.com/pub/gd/">Analysis of the Green Dam Censorware System</a>.
-        Wolchok, Yao, and Halderman.
-        Tech Report, 2009.
-      </li>
-      <li>
-        <a href="http://www.cs.utexas.edu/~shmat/shmat_ndss14decoy.pdf">No Direction Home: The True Cost of Routing Around Decoys</a>.
-        Houmansadr, Wong, and Shmatikov.
-        NDSS&nbsp;2014.
-      </li>
-    </ul>
+      
+    </ul> 
+
+    
   </div>
+    
+
+  
+  <a name=""></a>
+  <h2>Human Factors</h2>
+
+    
+      <div>
+      <h3>Tuesday, September 29 &mdash; Authentication</h3>
+    <ul>
+      
+      <li>
+        <a href="https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-ho.pdf">Detecting Credential Spearphishing Attacks in Enterprise Settings</a>.
+        
+        Grant Ho, Aashish Sharma, Mobin Javed, Vern Paxson, and David Wagner.
+        
+        Usenix Security, 2017.
+      </li>
+      
+    </ul> 
+    
+    <ul class="opt">
+      
+      <li>
+        <a href="https://nikita.ca/papers/password-reuse-ndss14.pdf">The Tangled Web of Password Reuse</a>.
+        
+        Anupam Das, Joseph Bonneau, Matthew Caesar, Nikita Borisov, and XiaoFeng Wang.
+        
+        NDSS,  2014.
+      </li>
+      
+    </ul> 
+
+    
+  </div>
+    
+      <div>
+      <h3>Thusday, October 1 &mdash; Usable Security</h3>
+    <ul>
+      
+      <li>
+        <a href="https://www.usenix.org/system/files/sec20-redmiles.pdf">A Comprehensive Quality Evaluation of Security and Privacy Advice on the Web</a>.
+        
+        Elissa M. Redmiles, Noel Warford, Amritha Jayanti, Aravind Koneru, Sean Kross, Miraida Morales, Rock Stevens, and Michelle L. Mazurek.
+        
+        Usenix Security, 2020.
+      </li>
+      
+    </ul> 
+    
+    <ul class="opt">
+      
+      <li>
+        <a href="http://users.umiacs.umd.edu/~mmazurek/papers/ccs2016-learned-secure.pdf">How I Learned to be Secure: a Census-Representative Survey of Security Advice Sources and Behavior</a>.
+        
+        Elissa M. Redmiles, Sean Kross, and Michelle L. Mazurek.
+        
+        CCS,  2016.
+      </li>
+      
+      <li>
+        <a href="http://devd.me/papers/alice-in-warningland.pdf">Alice in Warningland: A Large-Scale Field Study of Browser Security Warning Effectiveness</a>.
+        
+        Devdatta Akhawe and Adrienne Porter Felt.
+        
+        Usenix Security,  2013.
+      </li>
+      
+    </ul> 
+
+    
+  </div>
+    
+
+  
+  <a name=""></a>
+  <h2>Privacy</h2>
+
+    
+      <div>
+      <h3>Tuesday, October 6 &mdash; Privacy</h3>
+    <ul>
+      
+      <li>
+        <a href="https://tv-watches-you.princeton.edu/tv-tracking-acm-ccs19.pdf">Watching You Watch: The Tracking Ecosystem of Over-the-Top TV Streaming Devices</a>.
+        
+        Hooman Mohajeri Moghaddam, Gunes Acar, Ben Burgess, Arunesh Mathur, Danny Yuxing Huang, Nick Feamster, Edward W. Felten, Prateek Mittal, and Arvind Narayanan.
+        
+        CCS, 2019.
+      </li>
+      
+    </ul> 
+    
+    <ul class="opt">
+      
+      <li>
+        <a href="https://core.ac.uk/download/pdf/34609562.pdf">The Web Never Forgets: Persistent Tracking Mechanisms in the Wild</a>.
+        
+        Gunes Acar, Christian Eubank, Steven Englehardt, Marc Juarez, Arvind Narayanan, Claudia Diaz.
+        
+        CCS,  2014.
+      </li>
+      
+    </ul> 
+
+    
+  </div>
+    
+      <div>
+      <h3>Thursday, October 8 &mdash; Pre-proposal presentations <span class="note">No written response required.</span></h3>
+    <ul>
+      
+    </ul> 
+    
+    
+  </div>
+    
+
+  
+  <a name=""></a>
+  <h2>Real World Crypto</h2>
+
+    
+      <div>
+      <h3>Tuesday, October 13 &mdash; Crypto</h3>
+    <ul>
+      
+      <li>
+        <a href="https://factorable.net/paper.html">Mining Your Ps and Qs: Detection of Widespread Weak Keys in Network Devices</a>.
+        
+        Nadia Heninger, Zakir Durumeric, Eric Wustrow, and J. Alex Halderman.
+        
+        Usenix Security, 2012.
+      </li>
+      
+      <li>
+        <a href="https://weakdh.org/imperfect-forward-secrecy-ccs15.pdf">Imperfect Forward Secrecy: How Diffie-Hellman Fails in Practice</a>.
+        
+        David Adrian, Karthikeyan Bhargavan, Zakir Durumeric, Pierrick Gaudry, Matthew Green, J. Alex Halderman, Nadia Heninger et al.
+        
+        CCS, 2015.
+      </li>
+      
+    </ul> 
+    
+    <ul class="opt">
+      
+      <li>
+        <a href="https://drownattack.com/drown-attack-paper.pdf">DROWN: Breaking TLS using SSLv2</a>.
+        
+        Aviram, Nimrod, Sebastian Schinzel, Juraj Somorovsky, Nadia Heninger, Maik Dankel, Jens Steube, Luke Valenta et al.
+        
+        Usenix Security,  2016.
+      </li>
+      
+    </ul> 
+
+    
+  </div>
+    
+      <div>
+      <h3>Thursday, October 15 &mdash; Certificates</h3>
+    <ul>
+      
+      <li>
+        <a href="https://ieeexplore.ieee.org/abstract/document/8418638">Tracking Certificate Misissuance in the Wild</a>.
+        
+        Deepak Kumar, Zhengping Wang, Matthew Hyder, Joseph Dickinson, Gabrielle Beck, David Adrian, Joshua Mason, Zakir Durumeric, J. Alex Halderman, and Michael Bailey.
+        
+        Oakland, 2018.
+      </li>
+      
+    </ul> 
+    
+    <ul class="opt">
+      
+      <li>
+        <a href="https://jhalderm.com/pub/papers/letsencrypt-ccs19.pdf">Let’s Encrypt: An Automated Certificate Authority to Encrypt the Entire Web</a>.
+        
+        Josh Aas, Richard Barnes, Benton Case, Zakir Durumeric, Peter Eckersley, Alan Flores-López, J. Alex Halderman et al.
+        
+        CCS,  2019.
+      </li>
+      
+      <li>
+        <a href="https://jhalderm.com/pub/papers/https-imc13.pdf">Analysis of the HTTPS Certificate Ecosystem</a>.
+        
+        Zakir Durumeric, James Kasten, Michael Bailey, and J. Alex Halderman.
+        
+        IMC,  2013.
+      </li>
+      
+    </ul> 
+
+    
+  </div>
+    
+
+  
+  <a name=""></a>
+  <h2>Hardware Security</h2>
+
+    
+      <div>
+      <h3>Tuesday, October 20 &mdash; Hardware Attacks</h3>
+    <ul>
+      
+      <li>
+        <a href="https://googleprojectzero.blogspot.com/2015/03/exploiting-dram-rowhammer-bug-to-gain.html">Exploiting the DRAM rowhammer bug to gain kernel privileges</a>.
+        
+        Mark Seaborn and Thomas Dullien.
+        
+         2015.
+      </li>
+      
+    </ul> 
+    
+    <ul class="opt">
+      
+      <li>
+        <a href="https://web.eecs.umich.edu/~genkin/teaching/fall2018/EECS598-12_files/drammer.pdf">Drammer: Deterministic Rowhammer Attacks on Mobile Platforms</a>.
+        
+        Victor Van Der Veen, Yanick Fratantonio, Martina Lindorfer, Daniel Gruss, Clémentine Maurice, Giovanni Vigna, Herbert Bos, Kaveh Razavi, and Cristiano Giuffrida.
+        
+        CCS,  2016.
+      </li>
+      
+      <li>
+        <a href="https://ieeexplore.ieee.org/abstract/document/8418607">Another Flip in the Wall of Rowhammer Defenses</a>.
+        
+        Daniel Gruss, Moritz Lipp, Michael Schwarz, Daniel Genkin, Jonas Juffinger, Sioli O'Connell, Wolfgang Schoechl, and Yuval Yarom.
+        
+        Oakland,  2018.
+      </li>
+      
+    </ul> 
+
+    
+  </div>
+    
+      <div>
+      <h3>Thursday, October 22 &mdash; Side Channel</h3>
+    <ul>
+      
+      <li>
+        <a href="https://ieeexplore.ieee.org/abstract/document/8835233">Spectre Attacks: Exploiting Speculative Execution</a>.
+        
+        Kocher, Paul, Jann Horn, Anders Fogh, Daniel Genkin, Daniel Gruss, Werner Haas, Mike Hamburg et al.
+        
+        Oakland, 2019.
+      </li>
+      
+      <li>
+        <a href="https://meltdownattack.com/meltdown.pdf">Meltdown: Reading Kernel Memory from User Space</a>.
+        
+        Moritz Lipp, Michael Schwarz, Daniel Gruss, Thomas Prescher, Werner Haas, Anders Fogh, Jann Horn et al.
+        
+        Usenix Security, 2018.
+      </li>
+      
+    </ul> 
+    
+    <ul class="opt">
+      
+      <li>
+        <a href="https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/yarom">FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack</a>.
+        
+        Yuval Yarom and Katrina Falkner.
+        
+        Usenix Security,  2014.
+      </li>
+      
+    </ul> 
+
+    
+  </div>
+    
+
+  
+  <a name=""></a>
+  <h2>Software Security</h2>
+
+    
+      <div>
+      <h3>Thursday, November 3 &mdash; Work on your projects <span class="note">No written response required</span></h3>
+    <ul>
+      
+    </ul> 
+    
+    
+  </div>
+    
+      <div>
+      <h3>Tuesday, November 5 &mdash; Malware</h3>
+    <ul>
+      
+      <li>
+        <a href="https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_thomas.pdf">Investigating Commercial Pay-Per-Install  and the Distribution of Unwanted Software</a>.
+        
+        Kurt Thomas, Juan A. Elices Crespo, Ryan Rasti, Jean-Michel Picod, Cait Phillips, Marc-André Decoste, Chris Sharp et al.
+        
+        Usenix Security, 2016.
+      </li>
+      
+    </ul> 
+    
+    <ul class="opt">
+      
+      <li>
+        <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.438.2760&rep=rep1&type=pdf">Nazca: Detecting Malware Distribution in Large-Scale Networks</a>.
+        
+        Luca Invernizzi, Stanislav Miskovic, Ruben Torres, Christopher Kruegel, Sabyasachi Saha, Giovanni Vigna, Sung-Ju Lee, and Marco Mellia.
+        
+        NDSS,  2014.
+      </li>
+      
+    </ul> 
+
+    
+  </div>
+    
+
+  
+  <a name=""></a>
+  <h2>Critical Systems</h2>
+
+    
+      <div>
+      <h3>Tuesday, November 10 &mdash; IOT Security</h3>
+    <ul>
+      
+      <li>
+        <a href="https://dl.acm.org/doi/pdf/10.1145/3397333">IoT Inspector: Crowdsourcing Labeled Network Traffic from Smart Home Devices at Scale</a>.
+        
+        Danny Yuxing Huang, Noah Apthorpe, Frank Li, Gunes Acar, and Nick Feamster.
+        
+        Interactive, Mobile, Wearable and Ubiquitous Technologies, 2020.
+      </li>
+      
+    </ul> 
+    
+    <ul class="opt">
+      
+      <li>
+        <a href="https://www.usenix.org/system/files/sec19-kumar-deepak_0.pdf">All Things Considered: An Analysis of IoT Devices on Home Networks</a>.
+        
+        Deepak Kumar, Kelly Shen, Benton Case, Deepali Garg, Galina Alperovich, Dmitry Kuznetsov, Rajarshi Gupta, and Zakir Durumeric.
+        
+        Usenix Security,  2019.
+      </li>
+      
+      <li>
+        <a href="https://ieeexplore.ieee.org/abstract/document/8835392">SoK: Security Evaluation of Home-Based IoT Deployment</a>.
+        
+        Omar Alrawi, Chaz Lever, Manos Antonakakis, and Fabian Monrose.
+        
+        Oakland,  2019.
+      </li>
+      
+    </ul> 
+
+    
+  </div>
+    
+      <div>
+      <h3>Thursday, November 12 &mdash; Automotive Security</h3>
+    <ul>
+      
+      <li>
+        <a href="http://www.autosec.org/pubs/cars-oakland2010.pdf">Experimental Security Analysis of a Modern Automobile</a>.
+        
+        Karl Koscher, Alexei Czeskis, Franziska Roesner, Shwetak Patel, Tadayoshi Kohno, Stephen Checkoway, Damon McCoy et al.
+        
+        Oakland, 2010.
+      </li>
+      
+    </ul> 
+    
+    <ul class="opt">
+      
+      <li>
+        <a href="http://www.autosec.org/pubs/cars-usenixsec2011.pdf">Comprehensive Experimental Analyses of Automotive Attack Surfaces</a>.
+        
+        Stephen Checkoway, Damon McCoy, Brian Kantor, Danny Anderson, Hovav Shacham, Stefan Savage, Karl Koscher, Alexei Czeskis, Franziska Roesner, and Tadayoshi Kohno.
+        
+        Usenix Security,  2011.
+      </li>
+      
+    </ul> 
+
+    
+  </div>
+    
+
+  
+  <a name=""></a>
+  <h2>(Adverserial) Machine Learning</h2>
+
+    
+      <div>
+      <h3>Tuesday, November 17 &mdash; ML</h3>
+    <ul>
+      
+      <li>
+        <a href="https://www.computer.org/csdl/proceedings/sp/2010/6894/00/05504793.pdf">Outside the Closed World: On Using Machine Learning For Network Intrusion Detection</a>.
+        
+        Sommer, Robin, and Vern Paxson.
+        
+        Oakland, 2010.
+      </li>
+      
+    </ul> 
+    
+    <ul class="opt">
+      
+      <li>
+        <a href="https://nicholas.carlini.com/papers/2017_sp_nnrobustattacks.pdf">Towards Evaluating the Robustness of Neural Networks</a>.
+        
+        Nicholas Carlini, and David Wagner.
+        
+        Oakland,  2017.
+      </li>
+      
+      <li>
+        <a href="https://www.usenix.org/system/files/sec19-pendlebury.pdf">TESSERACT: Eliminating Experimental Bias in Malware Classification across Space and Times</a>.
+        
+        Feargus Pendlebury, Fabio Pierazzi, Roberto Jordaney, Johannes Kinder, and Lorenzo Cavallaro.
+        
+        Usenix Security,  2019.
+      </li>
+      
+    </ul> 
+
+    
+  </div>
+    
+      <div>
+      <h3>Tuesday, November 17 &mdash; Adverserial ML</h3>
+    <ul>
+      
+      <li>
+        <a href="https://arxiv.org/pdf/1412.6572.pdf">Explaining and Harnessing Adversarial Examples</a>.
+        
+        Ian J. Goodfellow, Jonathon Shlens, and Christian Szegedy.
+        
+         2014.
+      </li>
+      
+    </ul> 
+    
+    <ul class="opt">
+      
+      <li>
+        <a href="https://arxiv.org/pdf/1312.6199.pdf">Intriguing properties of neural networks</a>.
+        
+        Szegedy, Christian, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, and Rob Fergu.
+        
+          2013.
+      </li>
+      
+    </ul> 
+
+    
+  </div>
+    
+
+  
+  <a name=""></a>
+  <h2>Thanksgiving Break</h2>
+
+    
+      <div>
+      <h3>Tuesday, November 24 &mdash; No Classes</h3>
+    <ul>
+      
+    </ul> 
+    
+    
+  </div>
+    
+      <div>
+      <h3>Thursday, November 26 &mdash; No Classes</h3>
+    <ul>
+      
+    </ul> 
+    
+    
+  </div>
+    
+
+  
+  <a name=""></a>
+  <h2>Election and Mobile Security</h2>
+
+    
+      <div>
+      <h3>Tuesday, December 1 &mdash; Election Security</h3>
+    <ul>
+      
+      <li>
+        <a href="https://mbernhard.com/papers/bmd-verifiability-sp20.pdf">Can Voters Detect Malicious Manipulation of Ballot Marking Devices?</a>.
+        
+        Matthew Bernhard, Allison McDonald, Henry Meng, Jensen Hwa, Nakul Bajaj, Kevin Chang, J. Alex Halderman.
+        
+        Oakland, 2020.
+      </li>
+      
+    </ul> 
+    
+    <ul class="opt">
+      
+      <li>
+        <a href="https://jhalderm.com/pub/papers/ivoting-ccs14.pdf">Security Analysis of the Estonian Internet Voting System</a>.
+        
+        Drew Springall, Travis Finkenauer, Zakir Durumeric, Jason Kitcat, Harri Hursti, Margaret MacAlpine, and J. Alex Halderman.
+        
+        CCS,  2014.
+      </li>
+      
+    </ul> 
+
+    
+  </div>
+    
+      <div>
+      <h3>Tuesday, December 3 &mdash; Mobile Security</h3>
+    <ul>
+      
+      <li>
+        <a href="https://ieeexplore.ieee.org/abstract/document/9152633">An Analysis of Pre-installed Android Software</a>.
+        
+        Julien Gamba, Mohammed Rashed, Abbas Razaghpanah, Juan Tapiador, and Narseo Vallina-Rodriguez.
+        
+        Oakland, 2020.
+      </li>
+      
+      <li>
+        <a href="https://www.usenix.org/system/files/sec20-prasad.pdf">Who's Calling? Characterizing Robocalls through Audio and Metadata Analysis</a>.
+        
+        Sathvik Prasad, Elijah Bouma-Sims, Athishay Kiran Mylappan, and Bradley Reaves, North.
+        
+        Usenix Security, 2020.
+      </li>
+      
+    </ul> 
+    
+    <ul class="opt">
+      
+      <li>
+        <a href="https://www.usenix.org/system/files/sec19-reardon.pdf">50 Ways to Leak Your Data: An Exploration of Apps' Circumvention of the Android Permissions System</a>.
+        
+        Joel Reardon, Álvaro Feal, Primal Wijesekera, Amit Elazari Bar On, Narseo Vallina-Rodriguez, and Serge Egelman.
+        
+        Usenix Security,  2019.
+      </li>
+      
+    </ul> 
+
+    
+  </div>
+    
+
+  
+  <a name=""></a>
+  <h2>Final project presentations</h2>
+
+    
+      <div>
+      <h3>Tuesday, December 8 &mdash; Work on your projects</h3>
+    <ul>
+      
+    </ul> 
+    
+    
+  </div>
+    
+      <div>
+      <h3>Thursday, November 10 &mdash; Final Project Presentations</h3>
+    <ul>
+      
+    </ul> 
+    
+    
+  </div>
+    
+
+  
 </div>
 
 <br style="clear:both" />
 
 
     </div>
-    <script type="text/javascript">
-      var _gauges = _gauges || [];
-      (function() {
-        var t   = document.createElement('script');
-        t.type  = 'text/javascript';
-        t.async = true;
-        t.id    = 'gauges-tracker';
-        t.setAttribute('data-site-id', '52d47937eddd5b3794000063');
-        t.src = '//secure.gaug.es/track.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(t, s);
-      })();
-    </script>
+    
   </body>
+</html>
+
+
 </html>
