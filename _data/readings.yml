@@ -346,12 +346,29 @@
           paper-published: NDSS
           paper-year: 2014
 - week: week10
-  weektitle: No Class - CCS 2020
+  weektitle: Machine learning
   days:
     - date: Tuesday, November 10
       title: No class due to due to ACM Conference on Computer and Communications Security (CCS)! Work on your projects <span class="note">No written response required</span>
     - date: Thursday, November 12
-      title: No class due to due to ACM Conference on Computer and Communications Security (CCS)! Work on your projects <span class="note">No written response required</span>
+      title: ML
+      required:
+        - paper-title: "Outside the Closed World: On Using Machine Learning For Network Intrusion Detection"
+          paper-link: https://www.computer.org/csdl/proceedings/sp/2010/6894/00/05504793.pdf
+          paper-author: Sommer, Robin, and Vern Paxson
+          paper-published: Oakland
+          paper-year: 2010
+      recommended: 
+        - paper-title: "Towards Evaluating the Robustness of Neural Networks"
+          paper-link: https://nicholas.carlini.com/papers/2017_sp_nnrobustattacks.pdf
+          paper-author: Nicholas Carlini, and David Wagner
+          paper-published: Oakland
+          paper-year: 2017
+        - paper-title: "TESSERACT: Eliminating Experimental Bias in Malware Classification across Space and Times"
+          paper-link: https://www.usenix.org/system/files/sec19-pendlebury.pdf
+          paper-author: Feargus Pendlebury, Fabio Pierazzi, Roberto Jordaney, Johannes Kinder, and Lorenzo Cavallaro
+          paper-published: Usenix Security
+          paper-year: 2019
 - week: week11
   weektitle: Critical Systems
   days:
