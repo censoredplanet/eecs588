@@ -330,7 +330,7 @@
   weektitle: Software Security
   days:
     - date: Thursday, November 3
-      title: Work on your projects <span class="note">No written response required</span>
+      title: No class due to elections! Work on your projects <span class="note">No written response required</span>
     - date: Tuesday, November 5
       title: Malware
       required:
@@ -346,9 +346,16 @@
           paper-published: NDSS
           paper-year: 2014
 - week: week10
-  weektitle: Critical Systems
+  weektitle: No Class - CCS 2020
   days:
     - date: Tuesday, November 10
+      title: No class due to due to ACM Conference on Computer and Communications Security (CCS)! Work on your projects <span class="note">No written response required</span>
+    - date: Thursday, November 12
+      title: No class due to due to ACM Conference on Computer and Communications Security (CCS)! Work on your projects <span class="note">No written response required</span>
+- week: week11
+  weektitle: Critical Systems
+  days:
+    - date: Tuesday, November 17
       title: IOT Security 
       required:
         - paper-title: "IoT Inspector: Crowdsourcing Labeled Network Traffic from Smart Home Devices at Scale"
@@ -367,7 +374,7 @@
           paper-author: Omar Alrawi, Chaz Lever, Manos Antonakakis, and Fabian Monrose
           paper-published: Oakland
           paper-year: 2019  
-    - date: Thursday, November 12
+    - date: Thursday, November 19
       title: Automotive Security
       required:
         - paper-title: "Experimental Security Analysis of a Modern Automobile"
@@ -381,42 +388,6 @@
           paper-author: Stephen Checkoway, Damon McCoy, Brian Kantor, Danny Anderson, Hovav Shacham, Stefan Savage, Karl Koscher, Alexei Czeskis, Franziska Roesner, and Tadayoshi Kohno
           paper-published: Usenix Security
           paper-year: 2011  
-- week: week10
-  weektitle: (Adversarial) Machine Learning
-  days:
-    - date: Tuesday, November 17
-      title: ML
-      required:
-        - paper-title: "Outside the Closed World: On Using Machine Learning For Network Intrusion Detection"
-          paper-link: https://www.computer.org/csdl/proceedings/sp/2010/6894/00/05504793.pdf
-          paper-author: Sommer, Robin, and Vern Paxson
-          paper-published: Oakland
-          paper-year: 2010
-      recommended: 
-        - paper-title: "Towards Evaluating the Robustness of Neural Networks"
-          paper-link: https://nicholas.carlini.com/papers/2017_sp_nnrobustattacks.pdf
-          paper-author: Nicholas Carlini, and David Wagner
-          paper-published: Oakland
-          paper-year: 2017
-        - paper-title: "TESSERACT: Eliminating Experimental Bias in Malware Classification across Space and Times"
-          paper-link: https://www.usenix.org/system/files/sec19-pendlebury.pdf
-          paper-author: Feargus Pendlebury, Fabio Pierazzi, Roberto Jordaney, Johannes Kinder, and Lorenzo Cavallaro
-          paper-published: Usenix Security
-          paper-year: 2019
-    - date: Tuesday, November 19
-      title: Adversarial ML
-      required:
-        - paper-title: "Explaining and Harnessing Adversarial Examples"
-          paper-link: https://arxiv.org/pdf/1412.6572.pdf
-          paper-author: Ian J. Goodfellow, Jonathon Shlens, and Christian Szegedy
-          paper-published: 
-          paper-year: 2014
-      recommended: 
-        - paper-title: "Intriguing properties of neural networks"
-          paper-link: https://arxiv.org/pdf/1312.6199.pdf
-          paper-author: Szegedy, Christian, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, and Rob Fergu
-          paper-published: 
-          paper-year: 2013
 - week: week10
   weektitle: Thanksgiving Break
   days:
