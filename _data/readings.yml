@@ -80,8 +80,8 @@
       title: DNS
       required:
         - paper-title: "A Longitudinal, End-to-End View of the DNSSEC Ecosystem"
-          paper-link: https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/cao
-          paper-author: Taejoong Chung, Roland van Rijswijk-Deij, Balakrishnan Chandrasekaran, David Choffnes, Dave Levin, Bruce M. Maggs, Alan Mislove, and Christo Wilson
+          paper-link: https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-chung.pdf
+          paper-autßhor: Taejoong Chung, Roland van Rijswijk-Deij, Balakrishnan Chandrasekaran, David Choffnes, Dave Levin, Bruce M. Maggs, Alan Mislove, and Christo Wilson
           paper-published: Usenix Security
           paper-year: 2017    
       recommended:     
@@ -103,7 +103,7 @@
 - week: week3
   weektitle: Botnets and Denial of Service Attacks
   days:
-    - date: Tuesday, September 22
+    - date: Tuesday, September 15
       title: Botnets
       required:
         - paper-title: "Understanding the Mirai Botnet"
@@ -117,7 +117,7 @@
           paper-author: Brett Stone-Gross, Marco Cova, Lorenzo Cavallaro, Bob Gilbert, Martin Szydlowski, Richard Kemmerer, Christopher Kruegel, and Giovanni Vigna
           paper-published: CCS
           paper-year: 2009
-    - date: Thursday, September 24
+    - date: Thursday, September 17
       title: DoS
       required:
         - paper-title: "Amplification Hell: Revisiting Network Protocols for DDoS Abuse"
@@ -139,7 +139,7 @@
 - week: week4
   weektitle: Online Freedom
   days:
-    - date: Tuesday, September 15
+    - date: Tuesday, September 22
       title: Anonymity
       required:
         - paper-title: "Tor: The Second-Generation Onion Router"
@@ -163,7 +163,7 @@
           paper-author: Cyrus Farivar
           paper-published: Ars Technica
           paper-year: 2016
-    - date: Thursday, September 17
+    - date: Thursday, September 24
       title: Censorship Resistance
       required:
         - paper-title: "Blocking-resistant Communication Through Domain Fronting"
