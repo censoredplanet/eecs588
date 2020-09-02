@@ -66,11 +66,6 @@
           paper-published: Usenix Security
           paper-year: 2016    
       recommended:     
-        - paper-title: "Detecting Intentional Packet Drops on theInternet via TCP/IP Side Channels"
-          paper-link: https://www.censoredplanet.org/assets/Ensafi2014a.pdf
-          paper-author: Roya Ensafi, Jeffrey Knockel, Geoffrey Alexander, and Jedidiah R. Crandall
-          paper-published: PAM
-          paper-year: 2014
         - paper-title: "Augur: Internet-wide detection of connectivity disruptions"
           paper-link: https://www.censoredplanet.org/assets/Pearce2017a.pdf
           paper-author: Paul Pearce, Roya Ensafi, Frank Li, Nick Feamster, and Vern Paxson
