@@ -91,7 +91,7 @@
           paper-published: Usenix Security
           paper-year: 2017
         - paper-title: "DNS observatory: The big picture of the DNS"
-          paper-link: https://dl.acm.org/doi/abs/10.1145/3355369.3355566
+          paper-link: https://www.net.in.tum.de/fileadmin/bibtex/publications/papers/foremski2019dns.pdf
           paper-author: Pawel Foremski, Oliver Gasser, and Giovane CM Moura
           paper-published: IMC
           paper-year: 2019
@@ -108,7 +108,7 @@
           paper-year: 2017
       recommended:     
         - paper-title: "Your botnet is my botnet: analysis of a botnet takeover"
-          paper-link: https://dl.acm.org/doi/abs/10.1145/1653662.1653738
+          paper-link: https://sites.cs.ucsb.edu/~chris/research/doc/ccs09_botnet.pdf
           paper-author: Brett Stone-Gross, Marco Cova, Lorenzo Cavallaro, Bob Gilbert, Martin Szydlowski, Richard Kemmerer, Christopher Kruegel, and Giovanni Vigna
           paper-published: CCS
           paper-year: 2009
@@ -122,7 +122,7 @@
           paper-year: 2014
       recommended:     
         - paper-title: "Identifying the Scan and Attack Infrastructures Behind Amplification DDoS Attacks"
-          paper-link: https://dl.acm.org/doi/10.1145/2976749.2978293
+          paper-link: https://christian-rossow.de/publications/amptoscanner-ccs2016.pdf
           paper-author: Johannes Krupp, Michael Backes, and Christian Rossow
           paper-published: CCS
           paper-year: 2016
@@ -178,7 +178,7 @@
           paper-published: NDSS
           paper-year: 2020
         - paper-title: "Geneva: Evolving censorship evasion strategies"
-          paper-link: https://dl.acm.org/doi/abs/10.1145/3319535.3363189
+          paper-link: https://geneva.cs.umd.edu/papers/geneva_ccs19.pdf
           paper-author: Kevin Bock, George Hughey, Xiao Qiang, and Dave Levin
           paper-published: CCS
           paper-year: 2019       
