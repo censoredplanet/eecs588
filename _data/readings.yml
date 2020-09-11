@@ -316,11 +316,11 @@
           paper-published: Oakland
           paper-year: 2010
       recommended: 
-        - paper-title: "Comprehensive Experimental Analyses of Automotive Attack Surfaces"
-          paper-link: http://www.autosec.org/pubs/cars-usenixsec2011.pdf
-          paper-author: Stephen Checkoway, Damon McCoy, Brian Kantor, Danny Anderson, Hovav Shacham, Stefan Savage, Karl Koscher, Alexei Czeskis, Franziska Roesner, and Tadayoshi Kohno
-          paper-published: Usenix Security
-          paper-year: 2011  
+        - paper-title: "A Comprehensive Study of Autonomous Vehicle Bugs"
+          paper-link: https://jgarcia.ics.uci.edu/wp-content/uploads/icse2020_avbugs.pdf
+          paper-author: Joshua Garcia, Yang Feng, Junjie Shen, Sumaya Almanee, Yuan Xia, and Qi Alfred Chen
+          paper-published: ICSE
+          paper-year: 2020
 
 - week: week9
   weektitle: Machine Learning
