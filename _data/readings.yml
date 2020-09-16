@@ -335,6 +335,7 @@
           paper-author: Michael Rushanan and Aviel D. Rubin and Denis Foo Kune, and Colleen M. Swanson
           paper-published: Oakland
           paper-year: 2014
+      recommended:
         - paper-title: "Light Commands: Laser-Based Audio Injection Attacks on Voice-Controllable Systems"
           paper-link: https://www.usenix.org/system/files/sec20-sugawara.pdf
           paper-author: Takeshi Sugawara and Benjamin Cyr, Sara Rampazzi, Daniel Genkin, and Kevin Fu
