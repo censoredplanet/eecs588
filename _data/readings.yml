@@ -323,29 +323,24 @@
           paper-year: 2020
 
 - week: week9
-  weektitle: Machine Learning
+  weektitle: Embedded Devices Security
   days:
     - date: Tuesday, November 3
       title: No class due to elections! Work on your projects <span class="note">No written response required</span>
     - date: Thursday, November 5
-      title: ML
+      title: Embedded Security and Medical Devices
       required:
-        - paper-title: "Outside the Closed World: On Using Machine Learning For Network Intrusion Detection"
-          paper-link: https://www.computer.org/csdl/proceedings/sp/2010/6894/00/05504793.pdf
-          paper-author: Sommer, Robin, and Vern Paxson
-          paper-published: Oakland
-          paper-year: 2010
-      recommended: 
-        - paper-title: "Towards Evaluating the Robustness of Neural Networks"
-          paper-link: https://nicholas.carlini.com/papers/2017_sp_nnrobustattacks.pdf
-          paper-author: Nicholas Carlini, and David Wagner
-          paper-published: Oakland
-          paper-year: 2017
-        - paper-title: "TESSERACT: Eliminating Experimental Bias in Malware Classification across Space and Times"
-          paper-link: https://www.usenix.org/system/files/sec19-pendlebury.pdf
-          paper-author: Feargus Pendlebury, Fabio Pierazzi, Roberto Jordaney, Johannes Kinder, and Lorenzo Cavallaro
+        - paper-title: "Light Commands: Laser-Based Audio Injection Attacks on Voice-Controllable Systems"
+          paper-link: https://www.usenix.org/system/files/sec20-sugawara.pdf
+          paper-author: Takeshi Sugawara and Benjamin Cyr, Sara Rampazzi, Daniel Genkin, and Kevin Fu
           paper-published: Usenix Security
-          paper-year: 2019
+          paper-year: 2020
+      recommended: 
+        - paper-title: "SoK: Security and Privacy in Implantable Medical Devices and Body Area Networks"
+          paper-link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6956585
+          paper-author: Michael Rushanan and Aviel D. Rubin and Denis Foo Kune, and Colleen M. Swanson
+          paper-published: Oakland
+          paper-year: 2014
     
 - week: week10
   weektitle: Software Security
@@ -367,7 +362,7 @@
           paper-published: NDSS
           paper-year: 2014
 - week: week11
-  weektitle: Hardware Security
+  weektitle: Hardware Security and Machine Learning
   days:
     - date: Tuesday, November 17
       title: Hardware Attacks
@@ -389,24 +384,25 @@
           paper-published: Oakland
           paper-year: 2018
     - date: Thursday, November 19
-      title: Side Channel
+      title: Machine Learning
       required:
-        - paper-title: "Spectre Attacks: Exploiting Speculative Execution"
-          paper-link: https://ieeexplore.ieee.org/abstract/document/8835233
-          paper-author: Kocher, Paul, Jann Horn, Anders Fogh, Daniel Genkin, Daniel Gruss, Werner Haas, Mike Hamburg et al
+        - paper-title: "Outside the Closed World: On Using Machine Learning For Network Intrusion Detection"
+          paper-link: https://www.computer.org/csdl/proceedings/sp/2010/6894/00/05504793.pdf
+          paper-author:  Robin Sommer, and Vern Paxson
           paper-published: Oakland
-          paper-year: 2019
-        - paper-title: "Meltdown: Reading Kernel Memory from User Space"
-          paper-link: https://meltdownattack.com/meltdown.pdf
-          paper-author: Moritz Lipp, Michael Schwarz, Daniel Gruss, Thomas Prescher, Werner Haas, Anders Fogh, Jann Horn et al
-          paper-published: Usenix Security
-          paper-year: 2018
+          paper-year: 2010
       recommended: 
-        - paper-title: "FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack"
-          paper-link: https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/yarom
-          paper-author: Yuval Yarom and Katrina Falkner
+        - paper-title: "Towards Evaluating the Robustness of Neural Networks"
+          paper-link: https://nicholas.carlini.com/papers/2017_sp_nnrobustattacks.pdf
+          paper-author: Nicholas Carlini, and David Wagner
+          paper-published: Oakland
+          paper-year: 2017
+        - paper-title: "TESSERACT: Eliminating Experimental Bias in Malware Classification across Space and Times"
+          paper-link: https://www.usenix.org/system/files/sec19-pendlebury.pdf
+          paper-author: Feargus Pendlebury, Fabio Pierazzi, Roberto Jordaney, Johannes Kinder, and Lorenzo Cavallaro
           paper-published: Usenix Security
-          paper-year: 2014
+          paper-year: 2019
+      
 - week: week12
   weektitle: Thanksgiving Break
   days:
