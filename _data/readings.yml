@@ -330,17 +330,16 @@
     - date: Thursday, November 5
       title: Embedded Security and Medical Devices
       required:
-        - paper-title: "Light Commands: Laser-Based Audio Injection Attacks on Voice-Controllable Systems"
-          paper-link: https://www.usenix.org/system/files/sec20-sugawara.pdf
-          paper-author: Takeshi Sugawara and Benjamin Cyr, Sara Rampazzi, Daniel Genkin, and Kevin Fu
-          paper-published: Usenix Security
-          paper-year: 2020
-      recommended: 
         - paper-title: "SoK: Security and Privacy in Implantable Medical Devices and Body Area Networks"
           paper-link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6956585
           paper-author: Michael Rushanan and Aviel D. Rubin and Denis Foo Kune, and Colleen M. Swanson
           paper-published: Oakland
           paper-year: 2014
+        - paper-title: "Light Commands: Laser-Based Audio Injection Attacks on Voice-Controllable Systems"
+          paper-link: https://www.usenix.org/system/files/sec20-sugawara.pdf
+          paper-author: Takeshi Sugawara and Benjamin Cyr, Sara Rampazzi, Daniel Genkin, and Kevin Fu
+          paper-published: Usenix Security
+          paper-year: 2020
     
 - week: week10
   weektitle: Software Security
