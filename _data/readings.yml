@@ -204,7 +204,7 @@
           paper-author: Anupam Das, Joseph Bonneau, Matthew Caesar, Nikita Borisov, and XiaoFeng Wang
           paper-published: NDSS
           paper-year: 2014
-    - date: Thusday, October 1
+    - date: Thursday, October 1
       title: Usable Security 
       required: 
         - paper-title: "A Comprehensive Quality Evaluation of Security and Privacy Advice on the Web"
