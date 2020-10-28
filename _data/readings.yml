@@ -347,7 +347,7 @@
       title: Data Provenance
       required:
         - paper-title: "Tactical Provenance Analysis for Endpoint Detection and Response Systems"
-          paper-link: https://whassan3.web.engr.illinois.edu/papers/rapsheet-oakland20.pdf
+          paper-link: https://adambates.org/documents/Hassan_Oakland20.pdf
           paper-author: Wajih Ul Hassan, Adam Bates, Daniel Marino
           paper-published: Oakland
           paper-year: 2020
