@@ -458,11 +458,11 @@
           paper-published: Oakland
           paper-year: 2020
       recommended:
-        - paper-title: "Security Analysis of the Estonian Internet Voting System"
-          paper-link: https://jhalderm.com/pub/papers/ivoting-ccs14.pdf
-          paper-author: Drew Springall, Travis Finkenauer, Zakir Durumeric, Jason Kitcat, Harri Hursti, Margaret MacAlpine, and J. Alex Halderman
-          paper-published: CCS
-          paper-year: 2014
+        - paper-title: "Security Analysis of the Democracy Live Online Voting System"
+          paper-link: https://jhalderm.com/pub/papers/omniballot-20.pdf
+          paper-author: Michael A. Specter, and J. Alex Halderman
+          paper-published: Usenix Security
+          paper-year: 2021
     - date: Tuesday, December 3
       title: Mobile Security
       required: 
