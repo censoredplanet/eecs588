@@ -463,7 +463,7 @@
           paper-author: Michael A. Specter, and J. Alex Halderman
           paper-published: Usenix Security
           paper-year: 2021
-    - date: Tuesday, December 3
+    - date: Thursday, December 3
       title: Mobile Security
       required: 
         - paper-title: "An Analysis of Pre-installed Android Software"
